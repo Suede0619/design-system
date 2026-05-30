@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Design System Atlas — 40 Award-Winning Systems</title>
+<meta name="description" content="A living reference of 40 award-winning website design systems. See exactly what each one produces when applied to a real website." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Geist:wght@300;400;500;700;900&family=Geist+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital@0;1&family=Libre+Baskerville:ital@0;1&family=Cormorant+Garamond:wght@400;600&family=DM+Sans:wght@400;500;700&family=DM+Mono&family=Space+Mono:wght@400;700&family=JetBrains+Mono:wght@400;500;700&family=Fira+Code&family=Barlow:wght@300;400;600;700&family=Barlow+Condensed:wght@600;700;800&family=Sora:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b0b0f'/%3E%3Ccircle cx='34' cy='40' r='16' fill='%23ff8000'/%3E%3Ccircle cx='62' cy='52' r='16' fill='%23635bff'/%3E%3Ccircle cx='46' cy='68' r='14' fill='%233ecf8e'/%3E%3C/svg%3E" />
+</head>
+<body>
+<div class="app">
+
+  <!-- ============ SIDEBAR / CLEVER MENU ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="brand-text">
+        <h1>Design System Atlas</h1>
+        <p>40 award-winning systems, applied live</p>
+      </div>
+    </div>
+
+    <div class="search-wrap">
+      <svg class="search-ico" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"/></svg>
+      <input id="search" type="text" placeholder="Search systems…  (press / )" autocomplete="off" spellcheck="false" />
+      <kbd class="cmdk-hint" id="openCmdk">⌘K</kbd>
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="chip active" data-filter="all">All <span class="chip-count" id="cnt-all"></span></button>
+      <button class="chip" data-filter="dark">Dark</button>
+      <button class="chip" data-filter="light">Light</button>
+    </div>
+
+    <nav class="ds-list" id="dsList" aria-label="Design systems"></nav>
+
+    <div class="sidebar-foot">
+      <span id="resultCount"></span>
+      <span class="kbd-row"><kbd>↑</kbd><kbd>↓</kbd> navigate · <kbd>↵</kbd> open</span>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN STAGE ============ -->
+  <main class="stage">
+    <header class="toolbar">
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <div class="now-meta">
+        <span class="now-num" id="nowNum">07</span>
+        <div class="now-titles">
+          <h2 id="nowName">Stripe</h2>
+          <span class="now-cat" id="nowCat">Developer Fintech / Gradient Dark</span>
+        </div>
+        <span class="award-badge" id="nowAward">Multiple Webby Awards</span>
+      </div>
+
+      <div class="toolbar-actions">
+        <div class="viewport-toggle" id="viewportToggle" role="group" aria-label="Preview width">
+          <button data-vw="desktop" class="active" title="Desktop">
+            <svg viewBox="0 0 24 24" width="16" height="16"><rect x="2.5" y="4" width="19" height="13" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 20h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+          <button data-vw="tablet" title="Tablet">
+            <svg viewBox="0 0 24 24" width="16" height="16"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          </button>
+          <button data-vw="mobile" title="Mobile">
+            <svg viewBox="0 0 24 24" width="16" height="16"><rect x="7" y="3" width="10" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          </button>
+        </div>
+        <button class="icon-btn" id="randomBtn" title="Surprise me (R)">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M16 3h5v5M21 3l-7 7M8 21H3v-5M3 21l7-7M21 16v5h-5M14 14l7 7M3 8V3h5M3 3l7 7"/></svg>
+        </button>
+        <div class="nav-arrows">
+          <button class="icon-btn" id="prevBtn" title="Previous (←)"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="icon-btn" id="nextBtn" title="Next (→)"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+        <a class="src-link" id="srcLink" target="_blank" rel="noopener">Visit site ↗</a>
+      </div>
+    </header>
+
+    <div class="scroll-area" id="scrollArea">
+      <!-- The re-skinned mock website lives in a browser frame -->
+      <div class="browser" id="browser">
+        <div class="browser-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+          <div class="url-pill" id="urlPill">stripe.com</div>
+        </div>
+        <div class="canvas-clip">
+          <div class="ds-canvas" id="canvas"><!-- injected by app.js --></div>
+        </div>
+      </div>
+
+      <!-- Anatomy / spec section -->
+      <section class="anatomy" id="anatomy"><!-- injected by app.js --></section>
+
+      <footer class="page-foot">
+        Design System Atlas · 40 award-winning systems distilled into live, copy-ready tokens.
+        Pick one per project — never reuse a system.
+      </footer>
+    </div>
+  </main>
+
+  <!-- ============ COMMAND PALETTE ============ -->
+  <div class="cmdk-overlay" id="cmdkOverlay" hidden>
+    <div class="cmdk" role="dialog" aria-modal="true" aria-label="Jump to design system">
+      <div class="cmdk-input-row">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"/></svg>
+        <input id="cmdkInput" type="text" placeholder="Jump to a design system…" autocomplete="off" spellcheck="false" />
+        <kbd>esc</kbd>
+      </div>
+      <div class="cmdk-results" id="cmdkResults"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

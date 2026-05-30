@@ -1,0 +1,33 @@
+# Design System Atlas
+
+A living visual reference for **40 award-winning website design systems**. Pick a system from the menu and instantly see what a real website looks like when built with its tokens — typography, color, spacing, components, and the one signature move that makes it unmistakable.
+
+🔗 **Live:** https://suede0619.github.io/design-system/
+
+## What it does
+
+Each of the 40 systems (Stripe, Linear, Apple, Figma, Aesop, Teenage Engineering, …) is distilled into a token set — fonts, color palette, radii, shadows, hero treatment, type scale. The app re-skins one identical mock website (nav, hero, feature cards, stats, forms, pricing, type specimen, footer) live as you switch, so you can compare them apples-to-apples.
+
+Below each preview, an **anatomy panel** documents the palette (with hex values), foundations, design principles, and the system's signature.
+
+## The menu
+
+- **Sidebar** — searchable, filterable (Dark / Light) list with a mini-swatch preview of every system.
+- **⌘K command palette** — fuzzy-jump to any system.
+- **Keyboard** — `←` / `→` cycle systems, `R` randomizes, `/` focuses search, `↵` opens.
+- **Viewport toggle** — preview at desktop / tablet / mobile widths.
+
+## Tech
+
+Pure static HTML/CSS/JS — no build step, no dependencies. Every preview is driven by CSS custom properties set per system; contrast-safe text colors are computed from each background's relative luminance.
+
+## Structure
+
+| File | Purpose |
+|------|---------|
+| `index.html` | App shell, menu, command palette |
+| `styles.css` | App chrome + the scoped `.ds-canvas` preview styles |
+| `data.js` | The 40 design-system token sets |
+| `app.js` | Rendering, re-skinning, search, keyboard, palette |
+
+> **Rule:** No two projects should ever use the same design system. Pick one per project.
