@@ -1,0 +1,45 @@
+/* Cal.com — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-display: "Cal Sans", "Inter", system-ui, sans-serif;
+  --ds-font-mono: "Geist Mono", "JetBrains Mono", monospace;
+
+  /* color */
+  --ds-bg: #FFFFFF;
+  --ds-bg-alt: #F9FAFB;
+  --ds-surface: #FFFFFF;
+  --ds-text: #111827;
+  --ds-text-muted: #6B7280;
+  --ds-border: #E5E7EB;
+  --ds-primary: #111827;
+  --ds-primary-hover: #1F2937;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #0069FF;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #111827;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #111827;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #111827;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 72px;
+  --ds-size-h1: 56px;
+  --ds-size-h2: 44px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 12px;
+  --ds-radius-button: 6px;
+  --ds-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(180deg, #FFFFFF 0%, #F9FAFB 100%);
+}

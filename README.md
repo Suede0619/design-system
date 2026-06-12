@@ -2,7 +2,7 @@
 
 A living visual reference for **40 award-winning website design systems**. Pick a system from the menu and instantly see what a real website looks like when built with its tokens — typography, color, spacing, components, and the one signature move that makes it unmistakable.
 
-🔗 **Live:** https://suede0619.github.io/design-system/
+🔗 **Live:** https://atomic.nrvana.com (also at https://suede0619.github.io/design-system/)
 
 ## What it does
 
@@ -16,6 +16,16 @@ Below each preview, an **anatomy panel** documents the palette (with hex values)
 - **⌘K command palette** — fuzzy-jump to any system.
 - **Keyboard** — `←` / `→` cycle systems, `R` randomizes, `/` focuses search, `↵` opens.
 - **Viewport toggle** — preview at desktop / tablet / mobile widths.
+
+## Atomic kits
+
+Every system ships as a downloadable **atomic kit** — a machine-readable brand folder in the spirit of [the HTML brand / input-based outcomes](https://x.com/emmettshine): `brand.yaml`, `tokens.json` (W3C-style), `tokens.css`, `tailwind.config.js`, styled component atoms, a standalone `preview.html`, `AGENTS.md` instructions for AI coding agents, and the complete original `SPEC.md`. Download from any system's page, or grab them from [`kits/`](kits/).
+
+Regenerate all kits from `data.js` + the original specs:
+
+```sh
+node scripts/build-kits.mjs [path/to/specs]
+```
 
 ## Tech
 

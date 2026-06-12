@@ -1,0 +1,55 @@
+# Charles Leclerc — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "03"
+  name: "Charles Leclerc"
+  reference_url: "https://charlesleclerc.com"
+  award: "CSSDA #3 of 2025 (8.85)"
+  category: "Editorial Luxury / Motorsport"
+  mode: "dark"
+voice:
+  tagline: "Editorial luxury meets motorsport — serif gravitas, deep blacks, and Ferrari red as deliberate punctuation."
+  signature: "Cinematic scroll-triggered image reveals — photographs masked behind dark overlays that slide away as you scroll, creating a film-strip reveal effect. Combined with EB Garamond serif headlines and a central timeline axis, the site reads like an autobiographical documentary."
+principles:
+  - "Photography drives the palette, not the reverse"
+  - "Ferrari red only as text accents and thin rules, never fills"
+  - "Dark/light sections alternate for editorial rhythm"
+  - "Serif headings for gravitas, sans-serif body for modernity"
+  - "Every reveal feels like turning a coffee-table page"
+typography:
+  font_sans: "\"Neue Haas Grotesk\", \"Helvetica Neue\", Arial, sans-serif"
+  font_display: "\"EB Garamond\", \"Georgia\", \"Times New Roman\", serif"
+  font_mono: ""
+  scale:
+    display: "120px"
+    h1: "96px"
+    h2: "64px"
+    body: "17px"
+  weight_heading: 400
+  weight_body: 400
+  tracking_display: "-0.01em"
+color:
+  bg: "#0D0D0D"
+  bgAlt: "#F5F0EB"
+  surface: "#1A1A1A"
+  text: "#F5F0EB"
+  textMuted: "#888888"
+  border: "#333333"
+  primary: "#C12C2C"
+  primaryHover: "#E03333"
+  onPrimary: "#FFFFFF"
+  accent2: "#C5A55A"
+surfaces:
+  hero_background: "linear-gradient(180deg, transparent 30%, rgba(13,13,13,0.95) 100%)"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "0 4px 20px rgba(0,0,0,0.06)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

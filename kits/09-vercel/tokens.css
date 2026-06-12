@@ -1,0 +1,45 @@
+/* Vercel — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Geist Sans", "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-font-display: "Geist Sans", "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-font-mono: "Geist Mono", "SF Mono", "Fira Code", monospace;
+
+  /* color */
+  --ds-bg: #000000;
+  --ds-bg-alt: #0A0A0A;
+  --ds-surface: #111111;
+  --ds-text: #FFFFFF;
+  --ds-text-muted: #888888;
+  --ds-border: #333333;
+  --ds-primary: #FFFFFF;
+  --ds-primary-hover: #CCCCCC;
+  --ds-on-primary: #000000;
+  --ds-accent-2: #0070F3;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #FFFFFF;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 72px;
+  --ds-size-h1: 64px;
+  --ds-size-h2: 48px;
+  --ds-size-body: 14px;
+  --ds-weight-heading: 900;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.04em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 0px;
+  --ds-shadow: none;
+
+  /* hero */
+  --ds-hero-bg: #000000;
+}

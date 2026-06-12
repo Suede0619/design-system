@@ -1,0 +1,55 @@
+# The Monolith Project — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "15"
+  name: "The Monolith Project"
+  reference_url: "https://monolith.world"
+  award: "CSSDA #4 of 2025 (8.85)"
+  category: "Experimental / Anti-Design"
+  mode: "dark"
+voice:
+  tagline: "Confrontational machine-aesthetic anti-design: pure black/white, all-monospace, and a cursor that is the artwork."
+  signature: "Every decision flows from one commitment: the cursor is part of the artwork, tracked in real time to transform page elements. Zero-lag depth layers build a pseudo-3D space, anchored by huge ghost-opacity section numbers. Mechanical snap-inversions on hover and a crosshair cursor signal this is not a normal website."
+principles:
+  - "Binary existence — #000000 and #FFFFFF only, no greys or gradients"
+  - "Monospace supremacy — a single monospace face for everything"
+  - "Sequential revelation — numbered sections, not categories"
+  - "Cursor as actor — mouse position drives layout via parallax"
+  - "No affordances — buttons, links, and nav don't look like themselves"
+typography:
+  font_sans: "\"Space Mono\", \"JetBrains Mono\", \"Courier New\", monospace"
+  font_display: "\"Space Mono\", \"JetBrains Mono\", \"Courier New\", monospace"
+  font_mono: "\"Space Mono\", \"JetBrains Mono\", \"Courier New\", monospace"
+  scale:
+    display: "64px"
+    h1: "48px"
+    h2: "32px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.04em"
+color:
+  bg: "#000000"
+  bgAlt: "#FFFFFF"
+  surface: "#000000"
+  text: "#FFFFFF"
+  textMuted: "rgba(255,255,255,0.4)"
+  border: "#FFFFFF"
+  primary: "#FFFFFF"
+  primaryHover: "#CCCCCC"
+  onPrimary: "#000000"
+  accent2: "#FFFFFF"
+surfaces:
+  hero_background: "#000000"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

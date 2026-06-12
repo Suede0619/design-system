@@ -1,0 +1,55 @@
+# Audo Copenhagen — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "11"
+  name: "Audo Copenhagen"
+  reference_url: "https://audo.com"
+  award: "Webby Award Winner 2025 (Best Design)"
+  category: "Scandinavian Luxury / Interior E-Commerce"
+  mode: "light"
+voice:
+  tagline: "A coffee-table book about Scandinavian design — warm whites, brass, and editorial serifs at light weight."
+  signature: "Audo's identity rests on the warm white #F5F0EB foundation — never cold — and Freight Display used at weight 300–400, never bold. Square buttons signal Bauhaus over tech, while product cards carry no borders or shadows because the products sell themselves. Brass #C4A882 is the sole accent."
+principles:
+  - "Hygge as UI — warmth from texture, not busyness"
+  - "Architectural photography as navigation"
+  - "Restraint as luxury — no borders, shadows, or gradients"
+  - "Craft over convention — editorial, never transactional typography"
+  - "Slow scroll — designed to inhabit, not rush"
+typography:
+  font_sans: "\"Suisse Intl\", -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-serif"
+  font_display: "\"Freight Display Pro\", Georgia, \"Times New Roman\", serif"
+  font_mono: "\"Courier New\", monospace"
+  scale:
+    display: "88px"
+    h1: "56px"
+    h2: "40px"
+    body: "16px"
+  weight_heading: 400
+  weight_body: 300
+  tracking_display: "-0.02em"
+color:
+  bg: "#F5F0EB"
+  bgAlt: "#EDE8E1"
+  surface: "#EDE8E1"
+  text: "#2C2C2C"
+  textMuted: "#8B8172"
+  border: "#D8D0C6"
+  primary: "#2C2C2C"
+  primaryHover: "#C4A882"
+  onPrimary: "#F5F0EB"
+  accent2: "#C4A882"
+surfaces:
+  hero_background: "linear-gradient(180deg, #FAF8F5 0%, #F5F0EB 100%)"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

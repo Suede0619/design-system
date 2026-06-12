@@ -1,0 +1,55 @@
+# Notion — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "18"
+  name: "Notion"
+  reference_url: "https://notion.so"
+  award: "Multiple design awards"
+  category: "Productivity / Warm Minimal"
+  mode: "light"
+voice:
+  tagline: "Earned minimalism on a warm cream canvas — a well-loved notebook, not a command center."
+  signature: "Built on editorial humanism — the warm cream canvas says 'paper' before a word is read. Emoji function as first-class UI shorthand and hand-drawn illustrations humanize what could feel like a feature grid. The 900px reading width keeps layouts focused, trusting content over convention."
+principles:
+  - "Earned minimalism — every element serves the reader"
+  - "Content is king — reading-first at human attention scale"
+  - "Human-scaled warmth over cold enterprise sterility"
+  - "Editorial restraint with generous breathing room"
+  - "Toggle as metaphor — discovery is a gesture away"
+typography:
+  font_sans: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
+  font_display: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
+  font_mono: "'SFMono-Regular', Menlo, Monaco, Consolas, monospace"
+  scale:
+    display: "52px"
+    h1: "40px"
+    h2: "32px"
+    body: "15px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#FFFEFC"
+  bgAlt: "#F7F6F3"
+  surface: "#FFFFFF"
+  text: "#37352F"
+  textMuted: "#6B6B6B"
+  border: "#E0E0E0"
+  primary: "#E16259"
+  primaryHover: "#C94B42"
+  onPrimary: "#FFFFFF"
+  accent2: "#4B82C4"
+surfaces:
+  hero_background: "linear-gradient(180deg, #FFFEFC 0%, #F7F6F3 100%)"
+  radius_card: "8px"
+  radius_button: "4px"
+  shadow: "0 4px 16px rgba(55,53,47,0.10)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

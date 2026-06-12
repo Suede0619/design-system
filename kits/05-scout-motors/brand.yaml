@@ -1,0 +1,55 @@
+# Scout Motors — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "05"
+  name: "Scout Motors"
+  reference_url: "https://www.scoutmotors.com"
+  award: "Awwwards E-commerce of the Year 2025"
+  category: "Rugged Heritage / Automotive E-commerce"
+  mode: "light"
+voice:
+  tagline: "Rugged heritage meets modern precision — earth tones and industrial type designed in a workshop, not a studio."
+  signature: "A full-screen vehicle configurator fused with heritage storytelling — the site transitions seamlessly from a 'once upon a time' brand narrative directly into a 'build yours' configurator. The emotional story justifies the purchase without ever feeling like a sales pitch."
+principles:
+  - "Scout Green for major brand moments, Rust as the attention-grabber"
+  - "Everything muted, natural, weathered — never bright or saturated"
+  - "Sand and cream backgrounds alternate for rhythm"
+  - "Heritage storytelling justifies the purchase"
+  - "Industrial, purposeful typography"
+typography:
+  font_sans: "\"Barlow\", \"Helvetica Neue\", sans-serif"
+  font_display: "\"Barlow Condensed\", \"Arial Narrow\", sans-serif"
+  font_mono: "\"IBM Plex Mono\", monospace"
+  scale:
+    display: "120px"
+    h1: "96px"
+    h2: "64px"
+    body: "17px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "0.02em"
+color:
+  bg: "#F5F0E6"
+  bgAlt: "#EDE7D9"
+  surface: "#EDE7D9"
+  text: "#1C1C1C"
+  textMuted: "#9B9589"
+  border: "#D4C5A9"
+  primary: "#A0522D"
+  primaryHover: "#C0633A"
+  onPrimary: "#F5F0E6"
+  accent2: "#2D3E2F"
+surfaces:
+  hero_background: "linear-gradient(180deg, transparent 40%, rgba(28,28,28,0.85) 100%)"
+  radius_card: "8px"
+  radius_button: "4px"
+  shadow: "0 2px 8px rgba(0,0,0,0.06)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

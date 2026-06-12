@@ -1,0 +1,55 @@
+# Dropbox Brand — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "02"
+  name: "Dropbox Brand"
+  reference_url: "https://brand.dropbox.com"
+  award: "CSSDA Website of the Year 2025"
+  category: "Swiss Minimal / Brand Guidelines"
+  mode: "light"
+voice:
+  tagline: "Ultra-clean Swiss minimalism — a design system about a design system, precise enough to cut glass."
+  signature: "A brand guidelines site that uses its own rules so precisely that the medium is the message. Color swatches live inside the same 12-column grid that defines them, and typography samples use the exact specs they document. Borders, not shadows, define every boundary."
+principles:
+  - "Relentless restraint — the medium is the message"
+  - "One typeface for everything"
+  - "Color deployed surgically: blue for interaction, navy for text"
+  - "Whitespace does the talking (160px section spacing)"
+  - "Flat doctrine — zero decorative gradients or shadows"
+typography:
+  font_sans: "\"Sharp Grotesk\", \"Inter\", \"Helvetica Neue\", sans-serif"
+  font_display: "\"Sharp Grotesk\", \"Inter\", \"Helvetica Neue\", sans-serif"
+  font_mono: "\"IBM Plex Mono\", \"Fira Code\", monospace"
+  scale:
+    display: "96px"
+    h1: "80px"
+    h2: "56px"
+    body: "18px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#FFFFFF"
+  bgAlt: "#F7F7F8"
+  surface: "#FFFFFF"
+  text: "#1E1919"
+  textMuted: "#6B6B6B"
+  border: "#E8E8E8"
+  primary: "#0061FF"
+  primaryHover: "#004FCC"
+  onPrimary: "#FFFFFF"
+  accent2: "#7B68EE"
+surfaces:
+  hero_background: "linear-gradient(135deg, #0061FF 0%, #7B68EE 100%)"
+  radius_card: "12px"
+  radius_button: "8px"
+  shadow: "0 4px 16px rgba(0, 0, 0, 0.08)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

@@ -1,0 +1,55 @@
+# Headspace — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "38"
+  name: "Headspace"
+  reference_url: "https://headspace.com"
+  award: "Webby + Apple Design Award"
+  category: "Wellness / Warm Illustration"
+  mode: "light"
+voice:
+  tagline: "Every interaction feels like a gentle exhale — softness as a feature, not a weakness."
+  signature: "Heavy 20–28px border-radius on everything creates a soft, unthreatening environment, paired with a single warm orange used only for action. Custom organic illustrations build a world competitors can't copy, and a 4-second breathing animation rhythm — even loading states are breathing circles, never spinners — permeates all motion."
+principles:
+  - "Wellness doesn't have to look clinical — softness is a feature"
+  - "Warmth through radius — soft, unthreatening environment"
+  - "Orange as emotional anchor, used only for action"
+  - "Illustration over photography for a unique world"
+  - "Breathing as design language — the 4-second rhythm permeates motion"
+typography:
+  font_sans: "\"GT Walsheim\", -apple-system, sans-serif"
+  font_display: "\"GT Walsheim\", -apple-system, sans-serif"
+  font_mono: ""
+  scale:
+    display: "48px"
+    h1: "36px"
+    h2: "28px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.03em"
+color:
+  bg: "#FFFAF0"
+  bgAlt: "#F0EDE8"
+  surface: "#FFFFFF"
+  text: "#2B2D42"
+  textMuted: "#A0A3BD"
+  border: "#F0EDE8"
+  primary: "#F47D31"
+  primaryHover: "#E8692180"
+  onPrimary: "#FFFFFF"
+  accent2: "#06D6A0"
+surfaces:
+  hero_background: "linear-gradient(135deg, #FFB88C 0%, #FFD166 100%)"
+  radius_card: "20px"
+  radius_button: "28px"
+  shadow: "0 8px 24px rgba(43, 45, 66, 0.1)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

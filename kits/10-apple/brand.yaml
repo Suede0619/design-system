@@ -1,0 +1,55 @@
+# Apple — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "10"
+  name: "Apple"
+  reference_url: "https://apple.com"
+  award: "Multiple Webby Awards"
+  category: "Consumer Premium Editorial"
+  mode: "light"
+voice:
+  tagline: "High-end print advertising that happens to be interactive — restraint, photography, and SF Pro at scale."
+  signature: "Apple is recognizable by its 980px centered island floating in vast gray space like a framed exhibit, and by pinned-scroll reveals where products assemble as you scroll. Pages alternate between gray, white and black sections in a deliberate rhythm, with SF Pro's negative tracking at 96px and a frosted blur nav."
+principles:
+  - "Singular focus — one product, one story per page"
+  - "Photography as hero at cinematic scale"
+  - "Motion as revelation via scroll-driven animation"
+  - "Typography-first hierarchy — size and weight carry meaning"
+  - "Frictionless commerce — always-visible, never aggressive"
+typography:
+  font_sans: "\"SF Pro Text\", system-ui, -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", sans-serif"
+  font_display: "\"SF Pro Display\", system-ui, -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", sans-serif"
+  font_mono: ""
+  scale:
+    display: "96px"
+    h1: "56px"
+    h2: "40px"
+    body: "17px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.025em"
+color:
+  bg: "#F5F5F7"
+  bgAlt: "#FFFFFF"
+  surface: "#FFFFFF"
+  text: "#1D1D1F"
+  textMuted: "#6E6E73"
+  border: "#D2D2D7"
+  primary: "#0071E3"
+  primaryHover: "#0077ED"
+  onPrimary: "#FFFFFF"
+  accent2: "#0071E3"
+surfaces:
+  hero_background: "linear-gradient(180deg, #FFFFFF 0%, #F5F5F7 100%)"
+  radius_card: "18px"
+  radius_button: "980px"
+  shadow: "0 2px 8px rgba(0,0,0,0.08)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

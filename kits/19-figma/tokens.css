@@ -1,0 +1,45 @@
+/* Figma — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: 'Whyte', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ds-font-display: 'Whyte', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ds-font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  /* color */
+  --ds-bg: #FFFFFF;
+  --ds-bg-alt: #F5F5F5;
+  --ds-surface: #FFFFFF;
+  --ds-text: #1E1E1E;
+  --ds-text-muted: #5C5C5C;
+  --ds-border: #E8E8E8;
+  --ds-primary: #1E1E1E;
+  --ds-primary-hover: #333333;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #A259FF;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #1E1E1E;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #1E1E1E;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 80px;
+  --ds-size-h1: 48px;
+  --ds-size-h2: 36px;
+  --ds-size-body: 17px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.04em;
+
+  /* shape + depth */
+  --ds-radius-card: 16px;
+  --ds-radius-button: 8px;
+  --ds-shadow: 0 8px 32px rgba(0,0,0,0.12);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #A259FF 0%, #FF7262 50%, #F24E1E 100%);
+}

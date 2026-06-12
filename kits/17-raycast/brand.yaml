@@ -1,0 +1,55 @@
+# Raycast — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "17"
+  name: "Raycast"
+  reference_url: "https://raycast.com"
+  award: "Awwwards Site of the Day 2024"
+  category: "Developer Tool / Sleek Dark"
+  mode: "dark"
+voice:
+  tagline: "A precision dark command-palette aesthetic where glass panels and purple glow simulate real interface depth."
+  signature: "The command palette is the aesthetic language — glass panels with purple glow trace back to the product's command bar. Keyboard shortcut badges in monospace appear everywhere, and perspective-shifted UI screenshots float in 3D space. Color pops precisely because everything else stays neutral."
+principles:
+  - "Dark-first, not dark-mode — near-black is the canvas"
+  - "Depth through intentional layering, not decoration"
+  - "Command palette as the core interface metaphor"
+  - "Keyboard-native, developer-first signaling"
+  - "Radical restraint in saturation — one touch of color at a time"
+typography:
+  font_sans: "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  font_display: "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  font_mono: "'JetBrains Mono', 'Fira Code', monospace"
+  scale:
+    display: "72px"
+    h1: "56px"
+    h2: "40px"
+    body: "16px"
+  weight_heading: 600
+  weight_body: 400
+  tracking_display: "-0.04em"
+color:
+  bg: "#0A0A0A"
+  bgAlt: "#111111"
+  surface: "rgba(255,255,255,0.05)"
+  text: "#FFFFFF"
+  textMuted: "#ABABAB"
+  border: "#222222"
+  primary: "#7C3AED"
+  primaryHover: "#8B5CF6"
+  onPrimary: "#FFFFFF"
+  accent2: "#3B82F6"
+surfaces:
+  hero_background: "radial-gradient(ellipse 70% 50% at 50% 50%, rgba(124,58,237,0.2) 0%, rgba(59,130,246,0.1) 50%, transparent 100%)"
+  radius_card: "16px"
+  radius_button: "10px"
+  shadow: "0 32px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.04)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

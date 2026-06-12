@@ -1,0 +1,45 @@
+/* Teenage Engineering — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "TE Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --ds-font-display: "TE Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --ds-font-mono: "TE Mono", "SF Mono", Menlo, Consolas, monospace;
+
+  /* color */
+  --ds-bg: #FFFFFF;
+  --ds-bg-alt: #F5F5F5;
+  --ds-surface: #F5F5F5;
+  --ds-text: #000000;
+  --ds-text-muted: #666666;
+  --ds-border: #E0E0E0;
+  --ds-primary: #000000;
+  --ds-primary-hover: rgba(0,0,0,0.85);
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #FF6600;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #000000;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #000000;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #000000;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 72px;
+  --ds-size-h1: 32px;
+  --ds-size-h2: 18px;
+  --ds-size-body: 14px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.04em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 0px;
+  --ds-shadow: none;
+
+  /* hero */
+  --ds-hero-bg: #FFFFFF;
+}

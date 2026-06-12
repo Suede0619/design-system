@@ -1,0 +1,45 @@
+/* Apple — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "SF Pro Text", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  --ds-font-display: "SF Pro Display", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  --ds-font-mono: "SF Pro Text", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+
+  /* color */
+  --ds-bg: #F5F5F7;
+  --ds-bg-alt: #FFFFFF;
+  --ds-surface: #FFFFFF;
+  --ds-text: #1D1D1F;
+  --ds-text-muted: #6E6E73;
+  --ds-border: #D2D2D7;
+  --ds-primary: #0071E3;
+  --ds-primary-hover: #0077ED;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #0071E3;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #1D1D1F;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #1D1D1F;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #1D1D1F;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 96px;
+  --ds-size-h1: 56px;
+  --ds-size-h2: 40px;
+  --ds-size-body: 17px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.025em;
+
+  /* shape + depth */
+  --ds-radius-card: 18px;
+  --ds-radius-button: 980px;
+  --ds-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(180deg, #FFFFFF 0%, #F5F5F7 100%);
+}

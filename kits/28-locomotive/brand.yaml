@@ -1,0 +1,55 @@
+# Locomotive — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "28"
+  name: "Locomotive"
+  reference_url: "https://locomotive.ca"
+  award: "FWA Agency of the Year"
+  category: "Agency / Brutalist Motion"
+  mode: "dark"
+voice:
+  tagline: "Typography at architectural scale on pure black — the site is a live case study."
+  signature: "Typography at architectural scale — headlines so large they become abstract forms, letters cropped by the viewport and stacked like infrastructure. The differential between 10vw hero type and 0.75rem nav labels creates cinematic tension, with the type grid treated as the layout itself."
+principles:
+  - "Type grid itself is the layout, not text inside a layout"
+  - "Negative space pushed to the point of discomfort"
+  - "Tactile, physics-based scroll and hover states"
+  - "Restrained color — black, white, rare red"
+  - "Razor-sharp corners, flat presentation"
+typography:
+  font_sans: "\"Neue Haas Grotesk\", \"Helvetica Neue\", Arial, system-ui, sans-serif"
+  font_display: "\"Monument Extended\", \"Helvetica Neue\", \"Arial Black\", sans-serif"
+  font_mono: ""
+  scale:
+    display: "160px"
+    h1: "112px"
+    h2: "72px"
+    body: "16px"
+  weight_heading: 900
+  weight_body: 300
+  tracking_display: "-0.02em"
+color:
+  bg: "#000000"
+  bgAlt: "#0C0C0C"
+  surface: "#0C0C0C"
+  text: "#FFFFFF"
+  textMuted: "#888888"
+  border: "#1A1A1A"
+  primary: "#FF2800"
+  primaryHover: "#FF4D26"
+  onPrimary: "#FFFFFF"
+  accent2: "#F5C400"
+surfaces:
+  hero_background: "linear-gradient(135deg, rgba(255,255,255,0.04) 0%, transparent 100%)"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "0 24px 64px rgba(0, 0, 0, 0.6)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

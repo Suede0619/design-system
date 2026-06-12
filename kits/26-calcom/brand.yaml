@@ -1,0 +1,55 @@
+# Cal.com — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "26"
+  name: "Cal.com"
+  reference_url: "https://cal.com"
+  award: "Webby Nominee"
+  category: "Scheduling / Open Source Clean"
+  mode: "light"
+voice:
+  tagline: "Crisp off-white, deep navy type — the booking widget IS the hero."
+  signature: "The actual booking widget is embedded directly in the marketing hero — not a screenshot or mockup, a real functional calendar component you can interact with. The product IS the hero element, rendered in crisp off-white with deep navy type and green availability slots."
+principles:
+  - "Calendar UI previews are the core visual language"
+  - "Entirely flat design — no gradients"
+  - "Compact, precise, and trustworthy"
+  - "The product demonstrates itself"
+  - "Generous, structured white space"
+typography:
+  font_sans: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_display: "\"Cal Sans\", \"Inter\", system-ui, sans-serif"
+  font_mono: "\"Geist Mono\", \"JetBrains Mono\", monospace"
+  scale:
+    display: "72px"
+    h1: "56px"
+    h2: "44px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#FFFFFF"
+  bgAlt: "#F9FAFB"
+  surface: "#FFFFFF"
+  text: "#111827"
+  textMuted: "#6B7280"
+  border: "#E5E7EB"
+  primary: "#111827"
+  primaryHover: "#1F2937"
+  onPrimary: "#FFFFFF"
+  accent2: "#0069FF"
+surfaces:
+  hero_background: "linear-gradient(180deg, #FFFFFF 0%, #F9FAFB 100%)"
+  radius_card: "12px"
+  radius_button: "6px"
+  shadow: "0 8px 32px rgba(0, 0, 0, 0.06)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

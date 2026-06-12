@@ -1,0 +1,45 @@
+/* Mintlify — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --ds-font-mono: "Geist Mono", "JetBrains Mono", monospace;
+
+  /* color */
+  --ds-bg: #0D0D0D;
+  --ds-bg-alt: #111111;
+  --ds-surface: #111111;
+  --ds-text: #FFFFFF;
+  --ds-text-muted: rgba(255,255,255,0.45);
+  --ds-border: #1F1F1F;
+  --ds-primary: #00C4A0;
+  --ds-primary-hover: #00E5B8;
+  --ds-on-primary: #0D0D0D;
+  --ds-accent-2: #009E80;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #FFFFFF;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 72px;
+  --ds-size-h1: 48px;
+  --ds-size-h2: 40px;
+  --ds-size-body: 17px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.03em;
+
+  /* shape + depth */
+  --ds-radius-card: 16px;
+  --ds-radius-button: 8px;
+  --ds-shadow: 0 0 24px rgba(0, 196, 160, 0.4);
+
+  /* hero */
+  --ds-hero-bg: radial-gradient(ellipse at 60% -10%, rgba(0, 196, 160, 0.18) 0%, transparent 55%);
+}

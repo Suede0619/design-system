@@ -8,6 +8,16 @@
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
 
+  /* ---------- atomic kit slugs (id -> kits/<slug>.zip) ---------- */
+  let KIT_SLUGS = {};
+  fetch("kits/manifest.json")
+    .then(r => (r.ok ? r.json() : []))
+    .then(list => {
+      list.forEach(k => { KIT_SLUGS[k.id] = k.slug; });
+      if (current) select(current.id, false); // re-render with kit links
+    })
+    .catch(() => {});
+
   /* ---------- color helpers ---------- */
   function parseColor(str) {
     if (!str) return null;
@@ -225,12 +235,34 @@
       ["Primary", c.primary], ["Primary +", c.primaryHover], ["Accent", c.accent2],
       ["Text", c.text], ["Muted", c.textMuted], ["Border", c.border]
     ];
+    const slug = KIT_SLUGS[d.id];
+    const kitCard = slug ? `
+      <div class="spec-card wide kit-card">
+        <div class="kit-copy">
+          <h3>Atomic kit</h3>
+          <p class="kit-lead">Take the ${esc(d.name)} system with you — as a machine-readable brand kit.</p>
+          <p class="kit-sub">Design tokens (JSON&nbsp;·&nbsp;CSS&nbsp;·&nbsp;Tailwind), styled component atoms, a standalone preview page, the complete original spec, and <code>AGENTS.md</code> instructions so an AI coding agent can build on-brand without guesswork. Unzip it, or drop the folder straight into your repo.</p>
+          <div class="kit-files">
+            ${["brand.yaml", "tokens.json", "tokens.css", "tailwind.config.js", "components.css", "preview.html", "AGENTS.md", "SPEC.md"].map(f => `<span>${f}</span>`).join("")}
+          </div>
+        </div>
+        <div class="kit-action">
+          <a class="kit-btn" href="kits/${slug}.zip" download>
+            <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5M4 19h16"/></svg>
+            Download the kit
+          </a>
+          <span class="kit-note">.zip · 9 files · MIT-style, use freely</span>
+        </div>
+      </div>` : "";
+
     return `
       <div class="spec-card wide">
         <h3>The one memorable thing</h3>
         <p class="tagline-text">${d.tagline}</p>
         <p class="signature-text">${d.signature}</p>
       </div>
+
+      ${kitCard}
 
       <div class="spec-card">
         <h3>Color palette</h3>
@@ -321,6 +353,9 @@
     $("#nowCat").textContent = d.category;
     $("#nowAward").textContent = d.award;
     const link = $("#srcLink"); link.href = d.url;
+    const kitLink = $("#kitLink");
+    if (KIT_SLUGS[d.id]) { kitLink.hidden = false; kitLink.href = `kits/${KIT_SLUGS[d.id]}.zip`; }
+    else kitLink.hidden = true;
     $("#urlPill").textContent = d.url.replace(/^https?:\/\//, "").replace(/\/$/, "");
     document.title = `${d.name} — Design System Atlas`;
     history.replaceState(null, "", "#" + d.id);
@@ -417,4 +452,8 @@
   renderList(SYSTEMS);
   const startId = (location.hash || "").replace("#", "");
   select(SYSTEMS.find(s => s.id === startId) ? startId : SYSTEMS[0].id, true);
+  // ?kit deep-link: jump straight to the atomic-kit download card
+  if (new URLSearchParams(location.search).has("kit")) {
+    setTimeout(() => { const k = $(".kit-card"); if (k) k.scrollIntoView({ block: "center" }); }, 400);
+  }
 })();

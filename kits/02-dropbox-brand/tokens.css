@@ -1,0 +1,45 @@
+/* Dropbox Brand — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Sharp Grotesk", "Inter", "Helvetica Neue", sans-serif;
+  --ds-font-display: "Sharp Grotesk", "Inter", "Helvetica Neue", sans-serif;
+  --ds-font-mono: "IBM Plex Mono", "Fira Code", monospace;
+
+  /* color */
+  --ds-bg: #FFFFFF;
+  --ds-bg-alt: #F7F7F8;
+  --ds-surface: #FFFFFF;
+  --ds-text: #1E1919;
+  --ds-text-muted: #6B6B6B;
+  --ds-border: #E8E8E8;
+  --ds-primary: #0061FF;
+  --ds-primary-hover: #004FCC;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #7B68EE;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #1E1919;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #1E1919;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 96px;
+  --ds-size-h1: 80px;
+  --ds-size-h2: 56px;
+  --ds-size-body: 18px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 12px;
+  --ds-radius-button: 8px;
+  --ds-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #0061FF 0%, #7B68EE 100%);
+}

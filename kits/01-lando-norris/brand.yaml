@@ -1,0 +1,55 @@
+# Lando Norris — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "01"
+  name: "Lando Norris"
+  reference_url: "https://landonorris.com"
+  award: "Awwwards Site of the Year 2025"
+  category: "Cinematic Sports / Dark Mode"
+  mode: "dark"
+voice:
+  tagline: "High-contrast dark cinema where every scroll accelerates through a tunnel of papaya orange and white."
+  signature: "Full-viewport video backgrounds with aggressive typographic overlay — headlines at 120px+ sitting directly on top of moving footage. Creates a broadcast-quality sports title sequence feel. Horizontal scroll sections use scroll-snap to push through content like accelerating through gears."
+principles:
+  - "Video is the primary medium, not decoration"
+  - "Enormous, unapologetic typography"
+  - "Orange only for interactive highlights, never large fills"
+  - "High-contrast white-on-black backbone"
+  - "Flat and cinematic, no shadows"
+typography:
+  font_sans: "\"Aeonik Pro\", \"Helvetica Neue\", Arial, sans-serif"
+  font_display: "\"Aeonik Pro\", \"Helvetica Neue\", Arial, sans-serif"
+  font_mono: ""
+  scale:
+    display: "120px"
+    h1: "120px"
+    h2: "72px"
+    body: "16px"
+  weight_heading: 800
+  weight_body: 400
+  tracking_display: "-0.03em"
+color:
+  bg: "#0A0A0A"
+  bgAlt: "#1A1A1A"
+  surface: "#141414"
+  text: "#FFFFFF"
+  textMuted: "#A0A0A0"
+  border: "#333333"
+  primary: "#FF8000"
+  primaryHover: "#FF9933"
+  onPrimary: "#0A0A0A"
+  accent2: "#FFB366"
+surfaces:
+  hero_background: "linear-gradient(180deg, transparent 0%, #0A0A0A 100%)"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

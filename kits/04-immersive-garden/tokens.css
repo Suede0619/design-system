@@ -1,0 +1,45 @@
+/* Immersive Garden — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Sora", "Helvetica Neue", sans-serif;
+  --ds-font-display: "Playfair Display", "Georgia", serif;
+  --ds-font-mono: "Sora", "Helvetica Neue", sans-serif;
+
+  /* color */
+  --ds-bg: #080808;
+  --ds-bg-alt: #111111;
+  --ds-surface: #1C1C1C;
+  --ds-text: #F2EDE8;
+  --ds-text-muted: #8A8A8A;
+  --ds-border: #333333;
+  --ds-primary: #C5A55A;
+  --ds-primary-hover: #E8D5A0;
+  --ds-on-primary: #080808;
+  --ds-accent-2: #A8893D;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #F2EDE8;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 100px;
+  --ds-size-h1: 88px;
+  --ds-size-h2: 64px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 400;
+  --ds-weight-body: 300;
+  --ds-tracking-display: 0em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 0px;
+  --ds-shadow: none;
+
+  /* hero */
+  --ds-hero-bg: radial-gradient(ellipse at center, transparent 60%, #080808 100%);
+}

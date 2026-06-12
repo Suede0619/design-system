@@ -1,0 +1,55 @@
+# Pitch — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "21"
+  name: "Pitch"
+  reference_url: "https://pitch.com"
+  award: "Awwwards Site of the Day"
+  category: "Presentation / Bold Color"
+  mode: "dark"
+voice:
+  tagline: "Every section looks like one of Pitch's own beautiful slide templates — polished dark-violet SaaS."
+  signature: "The product itself is the hero — every section looks like one of Pitch's own beautiful slide templates. The dark-violet aesthetic communicates exactly what your deck will feel like, making the site an implicit product demonstration. Glow blobs, shimmer-bordered cards, and 3D-tilted screenshots reinforce the editor metaphor."
+principles:
+  - "The product itself is the hero — marketing as implicit demo"
+  - "Dense but breathable"
+  - "Presentation-editor metaphor bleeds into the site"
+  - "Dark-violet aesthetic communicates deck quality"
+  - "Elevated, slide-deck-precise composition"
+typography:
+  font_sans: "\"Söhne\", \"Inter\", system-ui, sans-serif"
+  font_display: "\"Söhne\", \"Inter\", system-ui, sans-serif"
+  font_mono: "ui-monospace, SFMono-Regular, Menlo, monospace"
+  scale:
+    display: "88px"
+    h1: "72px"
+    h2: "56px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#0F0E17"
+  bgAlt: "#161426"
+  surface: "#161426"
+  text: "#FFFFFF"
+  textMuted: "rgba(255,255,255,0.6)"
+  border: "#2D2B4E"
+  primary: "#7B5CF0"
+  primaryHover: "#8B6CF5"
+  onPrimary: "#FFFFFF"
+  accent2: "#9B7FF5"
+surfaces:
+  hero_background: "linear-gradient(135deg, #0F0E17 0%, #1A1540 50%, #0F0E17 100%)"
+  radius_card: "16px"
+  radius_button: "8px"
+  shadow: "0 24px 64px rgba(0,0,0,0.6)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

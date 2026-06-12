@@ -1,0 +1,45 @@
+/* Railway — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Geist", "Inter", system-ui, sans-serif;
+  --ds-font-display: "Geist", "Inter", system-ui, sans-serif;
+  --ds-font-mono: "Geist Mono", "JetBrains Mono", monospace;
+
+  /* color */
+  --ds-bg: #0B0D0F;
+  --ds-bg-alt: #0D1117;
+  --ds-surface: #161B22;
+  --ds-text: #E6EDF3;
+  --ds-text-muted: #7D8590;
+  --ds-border: #30363D;
+  --ds-primary: #7C3AED;
+  --ds-primary-hover: #6D28D9;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #C026D3;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #E6EDF3;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 80px;
+  --ds-size-h1: 64px;
+  --ds-size-h2: 44px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 12px;
+  --ds-radius-button: 6px;
+  --ds-shadow: 0 8px 24px rgba(0,0,0,0.6);
+
+  /* hero */
+  --ds-hero-bg: radial-gradient(ellipse at 40% -10%, rgba(124,58,237,0.2) 0%, rgba(192,38,211,0.1) 30%, transparent 60%);
+}

@@ -1,0 +1,55 @@
+# Lacoste — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "13"
+  name: "Lacoste"
+  reference_url: "https://www.lacoste.com"
+  award: "CSSDA #8 of 2025 (8.75)"
+  category: "Fashion / Playful Luxury"
+  mode: "light"
+voice:
+  tagline: "Heritage tennis-club luxury made contemporary — sacred green, gold accents, and Playfair editorial flair."
+  signature: "Lacoste pairs Playfair Display italic at 64–96px for campaign headlines with #004D2C used as architectural material across full-bleed sections, nav, and footers. The 24px button radius is a deliberate middle ground between square and pill, and gold #C5A661 is applied with jeweler's precision over a warm cream background."
+principles:
+  - "Heritage with momentum — vintage tennis club updated for digital luxury"
+  - "The green is sacred — #004D2C is the organizing logic of every screen"
+  - "Editorial photography as premium signal"
+  - "Membership as identity — the Club tier system is a primary UI pattern"
+  - "Refined restraint — generous whitespace, slow reveals, precise gold accents"
+typography:
+  font_sans: "\"Helvetica Now Display\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+  font_display: "\"Playfair Display\", Georgia, \"Times New Roman\", serif"
+  font_mono: ""
+  scale:
+    display: "96px"
+    h1: "64px"
+    h2: "48px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 300
+  tracking_display: "-0.02em"
+color:
+  bg: "#F5F1EA"
+  bgAlt: "#FFFFFF"
+  surface: "#FFFFFF"
+  text: "#1D1D1D"
+  textMuted: "#7A7A7A"
+  border: "#D4CABC"
+  primary: "#004D2C"
+  primaryHover: "#003620"
+  onPrimary: "#FFFFFF"
+  accent2: "#C5A661"
+surfaces:
+  hero_background: "linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 100%), #004D2C"
+  radius_card: "12px"
+  radius_button: "24px"
+  shadow: "0 2px 12px rgba(0,0,0,0.06)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

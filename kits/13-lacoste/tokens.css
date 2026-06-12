@@ -1,0 +1,45 @@
+/* Lacoste — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Helvetica Now Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --ds-font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --ds-font-mono: "Helvetica Now Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* color */
+  --ds-bg: #F5F1EA;
+  --ds-bg-alt: #FFFFFF;
+  --ds-surface: #FFFFFF;
+  --ds-text: #1D1D1D;
+  --ds-text-muted: #7A7A7A;
+  --ds-border: #D4CABC;
+  --ds-primary: #004D2C;
+  --ds-primary-hover: #003620;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #C5A661;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #1D1D1D;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #1D1D1D;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 96px;
+  --ds-size-h1: 64px;
+  --ds-size-h2: 48px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 300;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 12px;
+  --ds-radius-button: 24px;
+  --ds-shadow: 0 2px 12px rgba(0,0,0,0.06);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 100%), #004D2C;
+}

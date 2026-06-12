@@ -1,0 +1,55 @@
+# Rivian — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "32"
+  name: "Rivian"
+  reference_url: "https://rivian.com"
+  award: "Webby Winner Automotive"
+  category: "Automotive / Adventure Editorial"
+  mode: "light"
+voice:
+  tagline: "Forest greens and earthy tones — the green is earned, not a sustainability cliche."
+  signature: "The green is earned — Rivian's #3D7A4A is the actual color of the environments their vehicles explore, so every button, stat and border recalls forest trails and mountain passes. Rugged landscape photography in tension with precise UI produces a voice that is capable, purposeful, and alive."
+principles:
+  - "Nature meets precision — landscape photo as emotional anchor"
+  - "Green connects both worlds: forest AND brand"
+  - "Generous, breathable layouts mirroring open spaces"
+  - "Specs given the same weight as adventure stories"
+  - "Clean humanist type, functional with warmth"
+typography:
+  font_sans: "\"Rivian\", \"Inter\", system-ui, sans-serif"
+  font_display: "\"Rivian\", \"Inter\", system-ui, sans-serif"
+  font_mono: ""
+  scale:
+    display: "88px"
+    h1: "64px"
+    h2: "48px"
+    body: "16px"
+  weight_heading: 600
+  weight_body: 400
+  tracking_display: "-0.01em"
+color:
+  bg: "#F8FAF8"
+  bgAlt: "#EBF4EE"
+  surface: "#FFFFFF"
+  text: "#1C1C1C"
+  textMuted: "#6B7280"
+  border: "#E2E8F0"
+  primary: "#3D7A4A"
+  primaryHover: "#2C4A30"
+  onPrimary: "#FFFFFF"
+  accent2: "#3A5070"
+surfaces:
+  hero_background: "linear-gradient(135deg, #F8FAF8 0%, #EBF4EE 100%)"
+  radius_card: "16px"
+  radius_button: "100px"
+  shadow: "0 4px 24px rgba(0, 0, 0, 0.06)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

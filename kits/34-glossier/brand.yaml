@@ -1,0 +1,55 @@
+# Glossier — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "34"
+  name: "Glossier"
+  reference_url: "https://www.glossier.com"
+  award: "Webby Honoree"
+  category: "Beauty / Millennial Pink"
+  mode: "light"
+voice:
+  tagline: "Millennial pink softness with disciplined restraint — beauty that's already on your skin."
+  signature: "The color is a cultural artifact, not just a brand choice. 'Millennial pink' entered the design vernacular partly because of Glossier's disciplined deployment of #F5DAD2 and its relatives. Every pink element reinforces beauty that's soft, effortless, and never aggressive."
+principles:
+  - "Soft, effortless, and for you"
+  - "The product IS the palette"
+  - "Disciplined restraint over feature clutter"
+  - "Community woven in to validate and inspire"
+  - "Invite, never pressure"
+typography:
+  font_sans: "\"Graphik\", \"Helvetica Neue\", system-ui, sans-serif"
+  font_display: "\"Graphik\", \"Helvetica Neue\", system-ui, sans-serif"
+  font_mono: ""
+  scale:
+    display: "64px"
+    h1: "48px"
+    h2: "32px"
+    body: "15px"
+  weight_heading: 400
+  weight_body: 300
+  tracking_display: "0"
+color:
+  bg: "#FDF8F6"
+  bgAlt: "#FAF0EC"
+  surface: "#FFFFFF"
+  text: "#4A3830"
+  textMuted: "#C4A89E"
+  border: "#F0C4BA"
+  primary: "#1A1414"
+  primaryHover: "#4A3830"
+  onPrimary: "#FFFFFF"
+  accent2: "#F5DAD2"
+surfaces:
+  hero_background: "radial-gradient(ellipse at 60% 0%, #F5DAD2 0%, #FDF8F6 60%)"
+  radius_card: "8px"
+  radius_button: "4px"
+  shadow: "0 2px 12px rgba(0, 0, 0, 0.05)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

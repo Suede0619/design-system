@@ -1,0 +1,45 @@
+/* Headspace — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "GT Walsheim", -apple-system, sans-serif;
+  --ds-font-display: "GT Walsheim", -apple-system, sans-serif;
+  --ds-font-mono: "GT Walsheim", -apple-system, sans-serif;
+
+  /* color */
+  --ds-bg: #FFFAF0;
+  --ds-bg-alt: #F0EDE8;
+  --ds-surface: #FFFFFF;
+  --ds-text: #2B2D42;
+  --ds-text-muted: #A0A3BD;
+  --ds-border: #F0EDE8;
+  --ds-primary: #F47D31;
+  --ds-primary-hover: #E8692180;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #06D6A0;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #2B2D42;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #2B2D42;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #2B2D42;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 48px;
+  --ds-size-h1: 36px;
+  --ds-size-h2: 28px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.03em;
+
+  /* shape + depth */
+  --ds-radius-card: 20px;
+  --ds-radius-button: 28px;
+  --ds-shadow: 0 8px 24px rgba(43, 45, 66, 0.1);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #FFB88C 0%, #FFD166 100%);
+}

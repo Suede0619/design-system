@@ -1,0 +1,45 @@
+/* Aktiv — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Aktiv Grotesk", "Inter", "Helvetica Neue", system-ui, sans-serif;
+  --ds-font-display: "Aktiv Grotesk", "Inter", "Helvetica Neue", system-ui, sans-serif;
+  --ds-font-mono: "Aktiv Grotesk", "Inter", "Helvetica Neue", system-ui, sans-serif;
+
+  /* color */
+  --ds-bg: #FAFAF8;
+  --ds-bg-alt: #F0EFEB;
+  --ds-surface: #EAE8E1;
+  --ds-text: #111110;
+  --ds-text-muted: #8C8C8A;
+  --ds-border: #DCDCD8;
+  --ds-primary: #111110;
+  --ds-primary-hover: #000000;
+  --ds-on-primary: #FAFAF8;
+  --ds-accent-2: #C8B89A;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #111110;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #111110;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #111110;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 128px;
+  --ds-size-h1: 80px;
+  --ds-size-h2: 48px;
+  --ds-size-body: 15px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.01em;
+
+  /* shape + depth */
+  --ds-radius-card: 4px;
+  --ds-radius-button: 8px;
+  --ds-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #FAFAF8 0%, #F0EFEB 100%);
+}

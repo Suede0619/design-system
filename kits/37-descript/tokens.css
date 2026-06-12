@@ -1,0 +1,45 @@
+/* Descript — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-display: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-mono: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* color */
+  --ds-bg: #FAFAF8;
+  --ds-bg-alt: #F5F4F0;
+  --ds-surface: #FFFFFF;
+  --ds-text: #1A1A14;
+  --ds-text-muted: #8A8880;
+  --ds-border: #E0DDD6;
+  --ds-primary: #FF5B35;
+  --ds-primary-hover: #E84E2A;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #FF8060;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #1A1A14;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #1A1A14;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #1A1A14;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 72px;
+  --ds-size-h1: 56px;
+  --ds-size-h2: 40px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 16px;
+  --ds-radius-button: 8px;
+  --ds-shadow: 0 4px 16px rgba(255, 91, 53, 0.3);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #FAFAF8 0%, #F5F4F0 100%);
+}

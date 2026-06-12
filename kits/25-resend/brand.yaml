@@ -1,0 +1,55 @@
+# Resend — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "25"
+  name: "Resend"
+  reference_url: "https://resend.com"
+  award: "Awwwards Site of the Day"
+  category: "Developer Email / Minimal Dark"
+  mode: "dark"
+voice:
+  tagline: "Pure black, surgical orange — a marketing site engineered like the product itself."
+  signature: "Resend designs its marketing site exactly like its product — pure developer utility with zero visual noise on true black. The orange accent is so reserved that when it appears it reads as a signal, not decoration. Code blocks are the hero and typography carries everything."
+principles:
+  - "Zero decoration — every element earns its place"
+  - "Code blocks are the hero visuals"
+  - "Orange used as a signal, not decoration"
+  - "Typography does the heavy lifting"
+  - "Docs-adjacent, developer-first structure"
+typography:
+  font_sans: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_display: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_mono: "\"Geist Mono\", \"JetBrains Mono\", \"Fira Code\", monospace"
+  scale:
+    display: "64px"
+    h1: "64px"
+    h2: "36px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#000000"
+  bgAlt: "#0A0A0A"
+  surface: "#0A0A0A"
+  text: "#FFFFFF"
+  textMuted: "rgba(255,255,255,0.6)"
+  border: "#1A1A1A"
+  primary: "#FF4D00"
+  primaryHover: "#FF6A2A"
+  onPrimary: "#FFFFFF"
+  accent2: "#FF8C42"
+surfaces:
+  hero_background: "radial-gradient(ellipse at 50% -20%, rgba(255, 77, 0, 0.15) 0%, transparent 60%)"
+  radius_card: "10px"
+  radius_button: "6px"
+  shadow: "0 0 20px rgba(255, 77, 0, 0.35)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

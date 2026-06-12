@@ -1,0 +1,55 @@
+# KLABU — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "12"
+  name: "KLABU"
+  reference_url: "https://klabu.org"
+  award: "Webby People's Voice 2025"
+  category: "Social Impact / Athletic"
+  mode: "dark"
+voice:
+  tagline: "Stadium-scale athletic typography and electric signal colors turn humanitarian data into a call to action."
+  signature: "KLABU deploys Barlow Condensed at 80–120px — the voice of stadium scoreboards — for humanitarian numbers, an intentional cognitive dissonance. The 50/50 split-screen layout creates two parallel realities, with thick bordered cards like scoreboard panels and animated counters in electric blue and signal red."
+principles:
+  - "Urgency over elegance — high contrast and signal colors"
+  - "Sport as visual language — condensed athletic type, kinetic energy"
+  - "Data as storytelling — impact numbers animate and grow"
+  - "Split thinking — split-screen layouts mirror two worlds"
+  - "No apology aesthetics — nothing soft, rounded, or neutral"
+typography:
+  font_sans: "\"Barlow\", -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-serif"
+  font_display: "\"Barlow Condensed\", \"Arial Narrow\", Impact, sans-serif"
+  font_mono: ""
+  scale:
+    display: "120px"
+    h1: "64px"
+    h2: "40px"
+    body: "18px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.01em"
+color:
+  bg: "#1A1A1A"
+  bgAlt: "#2A2A2A"
+  surface: "#1A1A1A"
+  text: "#FFFFFF"
+  textMuted: "#888888"
+  border: "#444444"
+  primary: "#0066FF"
+  primaryHover: "#0052CC"
+  onPrimary: "#FFFFFF"
+  accent2: "#FF3333"
+surfaces:
+  hero_background: "linear-gradient(135deg, #1A1A1A 0%, #0066FF 100%)"
+  radius_card: "0px"
+  radius_button: "4px"
+  shadow: "0 8px 24px rgba(0,102,255,0.3)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

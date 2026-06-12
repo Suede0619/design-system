@@ -1,0 +1,100 @@
+/* Immersive Garden — atomic components ("atoms"), styled entirely by tokens.css.
+   Import tokens.css before this file. */
+
+/* ---------- base ---------- */
+.ds-page {
+  font-family: var(--ds-font-sans);
+  font-size: var(--ds-size-body);
+  font-weight: var(--ds-weight-body);
+  line-height: 1.6;
+  background: var(--ds-bg);
+  color: var(--ds-text);
+  -webkit-font-smoothing: antialiased;
+}
+.ds-display, .ds-h1, .ds-h2 {
+  font-family: var(--ds-font-display);
+  font-weight: var(--ds-weight-heading);
+  letter-spacing: var(--ds-tracking-display);
+  line-height: 1.05;
+  margin: 0;
+}
+.ds-display { font-size: clamp(40px, 9vw, var(--ds-size-display)); }
+.ds-h1 { font-size: clamp(32px, 6vw, var(--ds-size-h1)); }
+.ds-h2 { font-size: clamp(24px, 4vw, var(--ds-size-h2)); line-height: 1.15; }
+.ds-muted { color: var(--ds-text-muted); }
+.ds-mono { font-family: var(--ds-font-mono); }
+
+/* ---------- atoms: buttons ---------- */
+.ds-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  font: inherit; font-weight: 600; font-size: 14px;
+  padding: 12px 22px; cursor: pointer;
+  border-radius: var(--ds-radius-button);
+  border: 1px solid transparent;
+  transition: transform .12s ease, filter .15s ease, background .15s ease;
+}
+.ds-btn:hover { transform: translateY(-1px); }
+.ds-btn:active { transform: translateY(0); }
+.ds-btn--primary { background: var(--ds-primary); color: var(--ds-on-primary); box-shadow: var(--ds-shadow); }
+.ds-btn--primary:hover { background: var(--ds-primary-hover); }
+.ds-btn--secondary { background: transparent; color: var(--ds-text); border-color: var(--ds-border); }
+.ds-btn--secondary:hover { border-color: var(--ds-primary); color: var(--ds-primary); }
+.ds-btn--ghost { background: transparent; color: var(--ds-primary); }
+
+/* ---------- atoms: card ---------- */
+.ds-card {
+  background: var(--ds-surface);
+  color: var(--ds-surface-text);
+  border: 1px solid var(--ds-border);
+  border-radius: var(--ds-radius-card);
+  box-shadow: var(--ds-shadow);
+  padding: 24px;
+}
+.ds-card .ds-muted { color: var(--ds-surface-muted); }
+
+/* ---------- atoms: form ---------- */
+.ds-label { display: block; font-size: 12.5px; font-weight: 600; margin-bottom: 6px; }
+.ds-input, .ds-select {
+  width: 100%; font: inherit; font-size: 14px;
+  color: var(--ds-text); background: var(--ds-bg);
+  border: 1px solid var(--ds-border);
+  border-radius: var(--ds-radius-button);
+  padding: 11px 13px;
+  transition: border-color .15s, box-shadow .15s;
+}
+.ds-input:focus, .ds-select:focus {
+  outline: none; border-color: var(--ds-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ds-primary) 22%, transparent);
+}
+
+/* ---------- atoms: badge ---------- */
+.ds-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 600; padding: 5px 12px;
+  border-radius: 100px; border: 1px solid var(--ds-border);
+  color: var(--ds-text-muted);
+}
+.ds-badge--solid { background: var(--ds-primary); color: var(--ds-on-primary); border-color: transparent; }
+.ds-badge--tint { background: color-mix(in srgb, var(--ds-primary) 14%, transparent); color: var(--ds-primary); border-color: transparent; }
+
+/* ---------- molecules: nav + hero + section ---------- */
+.ds-nav {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 30px; border-bottom: 1px solid var(--ds-border);
+}
+.ds-nav a { color: var(--ds-text-muted); text-decoration: none; font-size: 13.5px; font-weight: 500; margin-left: 22px; }
+.ds-nav a:hover { color: var(--ds-text); }
+.ds-logo { font-family: var(--ds-font-display); font-weight: var(--ds-weight-heading); font-size: 19px; letter-spacing: var(--ds-tracking-display); }
+.ds-logo b { color: var(--ds-primary); }
+
+.ds-hero {
+  background: var(--ds-hero-bg);
+  color: var(--ds-hero-text);
+  padding: 76px 30px 84px;
+}
+.ds-hero .ds-muted { color: var(--ds-hero-muted); }
+.ds-hero .ds-btn--secondary { color: var(--ds-hero-text); border-color: color-mix(in srgb, var(--ds-hero-text) 30%, transparent); }
+
+.ds-section { padding: 56px 30px; }
+.ds-section--alt { background: var(--ds-bg-alt); color: var(--ds-alt-text); }
+.ds-section--alt .ds-muted { color: var(--ds-alt-muted); }

@@ -1,0 +1,55 @@
+# Supabase — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "23"
+  name: "Supabase"
+  reference_url: "https://supabase.com"
+  award: "Dev community favorite"
+  category: "Developer / Dark Emerald"
+  mode: "dark"
+voice:
+  tagline: "The terminal got a tasteful rebrand — confident dark mode anchored by unmistakable electric green."
+  signature: "That electric green #3ECF8E — singular, unmistakable, and technically legible on dark — is used so consistently it has become a developer-culture icon. The moment you see that green, you know it's Supabase. Dense code blocks, terminal aesthetics, and animated connection graphs reinforce the identity."
+principles:
+  - "Confident dark mode as default"
+  - "Code blocks and terminal aesthetics as core content"
+  - "Signature electric green used with total consistency"
+  - "Data flow and connection diagrams tell the platform story"
+  - "Technically legible, developer-native restraint"
+typography:
+  font_sans: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_display: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_mono: "\"JetBrains Mono\", \"Fira Code\", Menlo, monospace"
+  scale:
+    display: "80px"
+    h1: "64px"
+    h2: "48px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#1C1C1C"
+  bgAlt: "#161616"
+  surface: "#262626"
+  text: "#EEEEEE"
+  textMuted: "#AAAAAA"
+  border: "#3E3E3E"
+  primary: "#3ECF8E"
+  primaryHover: "#47DBA0"
+  onPrimary: "#1C1C1C"
+  accent2: "#22C55E"
+surfaces:
+  hero_background: "radial-gradient(ellipse at 50% -20%, rgba(62,207,142,0.12) 0%, transparent 60%)"
+  radius_card: "8px"
+  radius_button: "6px"
+  shadow: "0 8px 32px rgba(0,0,0,0.6)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

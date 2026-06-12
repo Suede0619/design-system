@@ -1,0 +1,55 @@
+# Arc Browser — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "20"
+  name: "Arc Browser"
+  reference_url: "https://arc.net"
+  award: "Multiple design awards"
+  category: "Browser / Gradient Whimsy"
+  mode: "light"
+voice:
+  tagline: "A browser that loves you back — soft gradient pills, floating screenshots, and warm Mac-native whimsy."
+  signature: "The 999px gradient pill is Arc's signature — every button, badge, and form element is soft and approachable. Floating screenshots breathe via a float animation whose shadow grows as the screen rises. The lavender → coral → teal gradient maps the emotional spectrum of browsing."
+principles:
+  - "Whimsical warmth controlled enough to feel sophisticated"
+  - "Nothing has a sharp corner — pill shapes everywhere"
+  - "Illustration is load-bearing, not decorative"
+  - "Gradient restraint tells a product story"
+  - "SF Pro as a Mac-native trust signal"
+typography:
+  font_sans: "-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  font_display: "-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+  font_mono: "'SF Mono', Menlo, Monaco, monospace"
+  scale:
+    display: "72px"
+    h1: "44px"
+    h2: "34px"
+    body: "17px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.03em"
+color:
+  bg: "#FAFAFA"
+  bgAlt: "#F0F0F0"
+  surface: "#FFFFFF"
+  text: "#1A1A1A"
+  textMuted: "#6B7280"
+  border: "#E5E7EB"
+  primary: "#C4B5FD"
+  primaryHover: "#FB923C"
+  onPrimary: "#1A1A1A"
+  accent2: "#5EEAD4"
+surfaces:
+  hero_background: "linear-gradient(135deg, #C4B5FD 0%, #F9A8D4 25%, #FB923C 55%, #5EEAD4 100%)"
+  radius_card: "20px"
+  radius_button: "999px"
+  shadow: "0 32px 80px rgba(0,0,0,0.15), 0 8px 24px rgba(0,0,0,0.08)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

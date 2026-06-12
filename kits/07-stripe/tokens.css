@@ -1,0 +1,45 @@
+/* Stripe — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-font-display: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-font-mono: "JetBrains Mono", "Fira Code", "Courier New", monospace;
+
+  /* color */
+  --ds-bg: #0A2540;
+  --ds-bg-alt: #060F1E;
+  --ds-surface: #0D3151;
+  --ds-text: #FFFFFF;
+  --ds-text-muted: rgba(255,255,255,0.75);
+  --ds-border: rgba(255,255,255,0.12);
+  --ds-primary: #635BFF;
+  --ds-primary-hover: #4B45CC;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #00A3FF;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #FFFFFF;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 72px;
+  --ds-size-h1: 56px;
+  --ds-size-h2: 40px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.03em;
+
+  /* shape + depth */
+  --ds-radius-card: 12px;
+  --ds-radius-button: 8px;
+  --ds-shadow: 0 4px 12px rgba(99,91,255,0.35);
+
+  /* hero */
+  --ds-hero-bg: radial-gradient(ellipse at 20% 50%, #635BFF33 0%, transparent 60%), radial-gradient(ellipse at 80% 20%, #00A3FF22 0%, transparent 60%), radial-gradient(ellipse at 50% 80%, #8B45FF22 0%, transparent 60%), #0A2540;
+}

@@ -1,0 +1,45 @@
+/* KLABU — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Barlow", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --ds-font-display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+  --ds-font-mono: "Barlow", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  /* color */
+  --ds-bg: #1A1A1A;
+  --ds-bg-alt: #2A2A2A;
+  --ds-surface: #1A1A1A;
+  --ds-text: #FFFFFF;
+  --ds-text-muted: #888888;
+  --ds-border: #444444;
+  --ds-primary: #0066FF;
+  --ds-primary-hover: #0052CC;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #FF3333;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #FFFFFF;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 120px;
+  --ds-size-h1: 64px;
+  --ds-size-h2: 40px;
+  --ds-size-body: 18px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.01em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 4px;
+  --ds-shadow: 0 8px 24px rgba(0,102,255,0.3);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #1A1A1A 0%, #0066FF 100%);
+}

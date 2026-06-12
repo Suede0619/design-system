@@ -1,0 +1,242 @@
+[
+  {
+    "id": "01",
+    "name": "Lando Norris",
+    "slug": "01-lando-norris",
+    "zip": "kits/01-lando-norris.zip"
+  },
+  {
+    "id": "02",
+    "name": "Dropbox Brand",
+    "slug": "02-dropbox-brand",
+    "zip": "kits/02-dropbox-brand.zip"
+  },
+  {
+    "id": "03",
+    "name": "Charles Leclerc",
+    "slug": "03-charles-leclerc",
+    "zip": "kits/03-charles-leclerc.zip"
+  },
+  {
+    "id": "04",
+    "name": "Immersive Garden",
+    "slug": "04-immersive-garden",
+    "zip": "kits/04-immersive-garden.zip"
+  },
+  {
+    "id": "05",
+    "name": "Scout Motors",
+    "slug": "05-scout-motors",
+    "zip": "kits/05-scout-motors.zip"
+  },
+  {
+    "id": "06",
+    "name": "Bürocratik",
+    "slug": "06-burocratik",
+    "zip": "kits/06-burocratik.zip"
+  },
+  {
+    "id": "07",
+    "name": "Stripe",
+    "slug": "07-stripe",
+    "zip": "kits/07-stripe.zip"
+  },
+  {
+    "id": "08",
+    "name": "Linear",
+    "slug": "08-linear",
+    "zip": "kits/08-linear.zip"
+  },
+  {
+    "id": "09",
+    "name": "Vercel",
+    "slug": "09-vercel",
+    "zip": "kits/09-vercel.zip"
+  },
+  {
+    "id": "10",
+    "name": "Apple",
+    "slug": "10-apple",
+    "zip": "kits/10-apple.zip"
+  },
+  {
+    "id": "11",
+    "name": "Audo Copenhagen",
+    "slug": "11-audo",
+    "zip": "kits/11-audo.zip"
+  },
+  {
+    "id": "12",
+    "name": "KLABU",
+    "slug": "12-klabu",
+    "zip": "kits/12-klabu.zip"
+  },
+  {
+    "id": "13",
+    "name": "Lacoste",
+    "slug": "13-lacoste",
+    "zip": "kits/13-lacoste.zip"
+  },
+  {
+    "id": "14",
+    "name": "ComPsych",
+    "slug": "14-compsych",
+    "zip": "kits/14-compsych.zip"
+  },
+  {
+    "id": "15",
+    "name": "The Monolith Project",
+    "slug": "15-monolith",
+    "zip": "kits/15-monolith.zip"
+  },
+  {
+    "id": "16",
+    "name": "Symphony of Vines",
+    "slug": "16-symphony-of-vines",
+    "zip": "kits/16-symphony-of-vines.zip"
+  },
+  {
+    "id": "17",
+    "name": "Raycast",
+    "slug": "17-raycast",
+    "zip": "kits/17-raycast.zip"
+  },
+  {
+    "id": "18",
+    "name": "Notion",
+    "slug": "18-notion",
+    "zip": "kits/18-notion.zip"
+  },
+  {
+    "id": "19",
+    "name": "Figma",
+    "slug": "19-figma",
+    "zip": "kits/19-figma.zip"
+  },
+  {
+    "id": "20",
+    "name": "Arc Browser",
+    "slug": "20-arc-browser",
+    "zip": "kits/20-arc-browser.zip"
+  },
+  {
+    "id": "21",
+    "name": "Pitch",
+    "slug": "21-pitch",
+    "zip": "kits/21-pitch.zip"
+  },
+  {
+    "id": "22",
+    "name": "Framer",
+    "slug": "22-framer",
+    "zip": "kits/22-framer.zip"
+  },
+  {
+    "id": "23",
+    "name": "Supabase",
+    "slug": "23-supabase",
+    "zip": "kits/23-supabase.zip"
+  },
+  {
+    "id": "24",
+    "name": "Railway",
+    "slug": "24-railway",
+    "zip": "kits/24-railway.zip"
+  },
+  {
+    "id": "25",
+    "name": "Resend",
+    "slug": "25-resend",
+    "zip": "kits/25-resend.zip"
+  },
+  {
+    "id": "26",
+    "name": "Cal.com",
+    "slug": "26-calcom",
+    "zip": "kits/26-calcom.zip"
+  },
+  {
+    "id": "27",
+    "name": "Mintlify",
+    "slug": "27-mintlify",
+    "zip": "kits/27-mintlify.zip"
+  },
+  {
+    "id": "28",
+    "name": "Locomotive",
+    "slug": "28-locomotive",
+    "zip": "kits/28-locomotive.zip"
+  },
+  {
+    "id": "29",
+    "name": "Aktiv",
+    "slug": "29-aktiv",
+    "zip": "kits/29-aktiv.zip"
+  },
+  {
+    "id": "30",
+    "name": "Mother Design",
+    "slug": "30-motherdesign",
+    "zip": "kits/30-motherdesign.zip"
+  },
+  {
+    "id": "31",
+    "name": "Porsche Taycan",
+    "slug": "31-porsche-taycan",
+    "zip": "kits/31-porsche-taycan.zip"
+  },
+  {
+    "id": "32",
+    "name": "Rivian",
+    "slug": "32-rivian",
+    "zip": "kits/32-rivian.zip"
+  },
+  {
+    "id": "33",
+    "name": "Allbirds",
+    "slug": "33-allbirds",
+    "zip": "kits/33-allbirds.zip"
+  },
+  {
+    "id": "34",
+    "name": "Glossier",
+    "slug": "34-glossier",
+    "zip": "kits/34-glossier.zip"
+  },
+  {
+    "id": "35",
+    "name": "Aesop",
+    "slug": "35-aesop",
+    "zip": "kits/35-aesop.zip"
+  },
+  {
+    "id": "36",
+    "name": "Loom",
+    "slug": "36-loom",
+    "zip": "kits/36-loom.zip"
+  },
+  {
+    "id": "37",
+    "name": "Descript",
+    "slug": "37-descript",
+    "zip": "kits/37-descript.zip"
+  },
+  {
+    "id": "38",
+    "name": "Headspace",
+    "slug": "38-headspace",
+    "zip": "kits/38-headspace.zip"
+  },
+  {
+    "id": "39",
+    "name": "Read.cv",
+    "slug": "39-read-cv",
+    "zip": "kits/39-read-cv.zip"
+  },
+  {
+    "id": "40",
+    "name": "Teenage Engineering",
+    "slug": "40-teenage-engineering",
+    "zip": "kits/40-teenage-engineering.zip"
+  }
+]

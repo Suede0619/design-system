@@ -1,0 +1,55 @@
+# Porsche Taycan — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "31"
+  name: "Porsche Taycan"
+  reference_url: "https://www.porsche.com/taycan"
+  award: "iF Design Award, Webby"
+  category: "Automotive / Performance Luxury"
+  mode: "dark"
+voice:
+  tagline: "Razor-sharp zero-radius precision — cinema staged for a single product."
+  signature: "The sharp-corner, zero-radius design language — in a world of rounded corners, every button, card and container has razor-sharp 0px radius, communicating precision engineering with no softening. Combined with thin-weight typography at dramatic scale, it feels built for a car that corners at 0.1g."
+principles:
+  - "Cinema for one product — sections like film chapters"
+  - "Imagery is everything: full-bleed photo and video"
+  - "Minimal UI, maximum drama"
+  - "Thin-weight type at dramatic scale"
+  - "Specs presented with the reverence of artistic statements"
+typography:
+  font_sans: "\"Porsche Next\", Arial, system-ui, sans-serif"
+  font_display: "\"Porsche Next\", Arial, system-ui, sans-serif"
+  font_mono: ""
+  scale:
+    display: "96px"
+    h1: "80px"
+    h2: "48px"
+    body: "16px"
+  weight_heading: 400
+  weight_body: 400
+  tracking_display: "-0.01em"
+color:
+  bg: "#000000"
+  bgAlt: "#0A0A0A"
+  surface: "#1C1C1C"
+  text: "#FFFFFF"
+  textMuted: "#B2B2B2"
+  border: "#464646"
+  primary: "#FFFFFF"
+  primaryHover: "rgba(255,255,255,0.9)"
+  onPrimary: "#000000"
+  accent2: "#3B78C4"
+surfaces:
+  hero_background: "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 100%)"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "0 4px 24px rgba(0, 0, 0, 0.6)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

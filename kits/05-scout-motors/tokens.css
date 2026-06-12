@@ -1,0 +1,45 @@
+/* Scout Motors — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Barlow", "Helvetica Neue", sans-serif;
+  --ds-font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --ds-font-mono: "IBM Plex Mono", monospace;
+
+  /* color */
+  --ds-bg: #F5F0E6;
+  --ds-bg-alt: #EDE7D9;
+  --ds-surface: #EDE7D9;
+  --ds-text: #1C1C1C;
+  --ds-text-muted: #9B9589;
+  --ds-border: #D4C5A9;
+  --ds-primary: #A0522D;
+  --ds-primary-hover: #C0633A;
+  --ds-on-primary: #F5F0E6;
+  --ds-accent-2: #2D3E2F;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #1C1C1C;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #1C1C1C;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 120px;
+  --ds-size-h1: 96px;
+  --ds-size-h2: 64px;
+  --ds-size-body: 17px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: 0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 8px;
+  --ds-radius-button: 4px;
+  --ds-shadow: 0 2px 8px rgba(0,0,0,0.06);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(180deg, transparent 40%, rgba(28,28,28,0.85) 100%);
+}

@@ -1,0 +1,55 @@
+# Teenage Engineering — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "40"
+  name: "Teenage Engineering"
+  reference_url: "https://teenage.engineering"
+  award: "D&AD Yellow Pencil + iF Design"
+  category: "Product / Industrial Brutalism"
+  mode: "light"
+voice:
+  tagline: "The internet as a product manual from the future — utility is beauty, the website stays invisible."
+  signature: "The entire site is pure #000 black text on pure #FFF white, with product accent colors appearing only on product images and buy buttons. Zero border-radius makes everything rectangular, creating an industrial tool-like identity. The design stays invisible so high-res studio product photography can be the entire experience."
+principles:
+  - "Utility IS beauty — the most beautiful thing is the thing that works"
+  - "Zero radius, zero compromise — rectangular everything"
+  - "Monochrome as ideology — black/white forces products to provide color"
+  - "Spec sheets are beautiful when the typography is perfect"
+  - "Small type, big confidence — product photography does the selling"
+typography:
+  font_sans: "\"TE Neue\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+  font_display: "\"TE Neue\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+  font_mono: "\"TE Mono\", \"SF Mono\", Menlo, Consolas, monospace"
+  scale:
+    display: "72px"
+    h1: "32px"
+    h2: "18px"
+    body: "14px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.04em"
+color:
+  bg: "#FFFFFF"
+  bgAlt: "#F5F5F5"
+  surface: "#F5F5F5"
+  text: "#000000"
+  textMuted: "#666666"
+  border: "#E0E0E0"
+  primary: "#000000"
+  primaryHover: "rgba(0,0,0,0.85)"
+  onPrimary: "#FFFFFF"
+  accent2: "#FF6600"
+surfaces:
+  hero_background: "#FFFFFF"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

@@ -1,0 +1,45 @@
+/* Allbirds — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Allbirds Sans", "Helvetica Neue", system-ui, sans-serif;
+  --ds-font-display: "Tiempos Headline", Georgia, serif;
+  --ds-font-mono: "Allbirds Sans", "Helvetica Neue", system-ui, sans-serif;
+
+  /* color */
+  --ds-bg: #F5F0E8;
+  --ds-bg-alt: #EDE7D9;
+  --ds-surface: #FFFFFF;
+  --ds-text: #3A2820;
+  --ds-text-muted: #B59A80;
+  --ds-border: #D9CEBC;
+  --ds-primary: #3A2820;
+  --ds-primary-hover: #282018;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #2D4030;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #3A2820;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #3A2820;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #3A2820;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 72px;
+  --ds-size-h1: 56px;
+  --ds-size-h2: 40px;
+  --ds-size-body: 15px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: 0;
+
+  /* shape + depth */
+  --ds-radius-card: 4px;
+  --ds-radius-button: 4px;
+  --ds-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #F5F0E8 0%, #EDE7D9 100%);
+}

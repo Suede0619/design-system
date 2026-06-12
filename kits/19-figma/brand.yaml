@@ -1,0 +1,55 @@
+# Figma — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "19"
+  name: "Figma"
+  reference_url: "https://figma.com"
+  award: "Webby Award Honoree"
+  category: "Design Tool / Colorful Play"
+  mode: "light"
+voice:
+  tagline: "Design used to sell design — a bold three-color gradient manifesto rendered in chunky geometric type."
+  signature: "The three-color gradient (#A259FF → #FF7262 → #F24E1E) acts as stroke, fill, text, background, and button — one gradient doing the work of an entire brand palette. The round, quirky Whyte typeface carries personality at bold weights, while black CTAs on white deliver contrast that's bold without being loud."
+principles:
+  - "Use design to sell design"
+  - "Bold, expressive, and confidently colorful"
+  - "One gradient does the work of an entire palette"
+  - "Live embedded prototypes prove value over description"
+  - "Black CTAs on white — bold without being loud"
+typography:
+  font_sans: "'Whyte', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  font_display: "'Whyte', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  font_mono: "'JetBrains Mono', 'Courier New', monospace"
+  scale:
+    display: "80px"
+    h1: "48px"
+    h2: "36px"
+    body: "17px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.04em"
+color:
+  bg: "#FFFFFF"
+  bgAlt: "#F5F5F5"
+  surface: "#FFFFFF"
+  text: "#1E1E1E"
+  textMuted: "#5C5C5C"
+  border: "#E8E8E8"
+  primary: "#1E1E1E"
+  primaryHover: "#333333"
+  onPrimary: "#FFFFFF"
+  accent2: "#A259FF"
+surfaces:
+  hero_background: "linear-gradient(135deg, #A259FF 0%, #FF7262 50%, #F24E1E 100%)"
+  radius_card: "16px"
+  radius_button: "8px"
+  shadow: "0 8px 32px rgba(0,0,0,0.12)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

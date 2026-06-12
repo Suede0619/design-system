@@ -1,0 +1,55 @@
+# Framer — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "22"
+  name: "Framer"
+  reference_url: "https://www.framer.com"
+  award: "Awwwards Honoree"
+  category: "Design Tool / Gradient Dark"
+  mode: "light"
+voice:
+  tagline: "Clean white canvas with surgical typography and electric blue — a living product demo built in Framer."
+  signature: "The marketing site is built in Framer and runs live interactive product demos directly inside the page — scroll-driven canvas components, real editors. The product sells itself through direct experience. Surgical Inter typography, bento-grid layouts, and electric blue accents keep the white canvas crisp."
+principles:
+  - "Clean white canvas with surgical typography"
+  - "The site is built in Framer — a living product demo"
+  - "Interactive previews that feel alive over screenshots"
+  - "Bento-grid clarity and precision"
+  - "Minimal, crisp motion — content appears cleanly"
+typography:
+  font_sans: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_display: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_mono: "ui-monospace, SFMono-Regular, Menlo, monospace"
+  scale:
+    display: "96px"
+    h1: "72px"
+    h2: "56px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.025em"
+color:
+  bg: "#FFFFFF"
+  bgAlt: "#F5F5F7"
+  surface: "#FFFFFF"
+  text: "#0A0A0A"
+  textMuted: "#444444"
+  border: "#E5E5E5"
+  primary: "#0099FF"
+  primaryHover: "#0088EE"
+  onPrimary: "#FFFFFF"
+  accent2: "#00C6FF"
+surfaces:
+  hero_background: "linear-gradient(180deg, #FFFFFF 0%, #F5F5F7 100%)"
+  radius_card: "16px"
+  radius_button: "8px"
+  shadow: "0 8px 32px rgba(0,0,0,0.08)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

@@ -1,0 +1,55 @@
+# Bürocratik — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "06"
+  name: "Bürocratik"
+  reference_url: "https://www.burocratik.com"
+  award: "CSSDA Best Agency + EDAwards #1 Europe"
+  category: "Editorial Maximalism / Monochrome Brutalist"
+  mode: "light"
+voice:
+  tagline: "Editorial maximalism in monochrome — oversized type, absolute black-and-white contrast, red as an exclamation mark."
+  signature: "The numbered manifesto structure — every section opens with an oversized outlined numeral (01, 02, 03...) anchoring content like chapter markers in a bold publication. Combined with max-width typography that fills the viewport and infinite marquee strips between sections, it reads like a design agency's declaration of principles."
+principles:
+  - "The palette is binary: black or white, period"
+  - "Red appears only once per page — extreme restraint"
+  - "Oversized typography dominates every viewport"
+  - "Whitespace is weaponized"
+  - "Numbered manifesto structure anchors every section"
+typography:
+  font_sans: "\"Neue Montreal\", \"Helvetica Neue\", Arial, sans-serif"
+  font_display: "\"Neue Montreal\", \"Helvetica Neue\", Arial, sans-serif"
+  font_mono: ""
+  scale:
+    display: "200px"
+    h1: "160px"
+    h2: "96px"
+    body: "18px"
+  weight_heading: 900
+  weight_body: 400
+  tracking_display: "-0.04em"
+color:
+  bg: "#FFFFFF"
+  bgAlt: "#000000"
+  surface: "#1A1A1A"
+  text: "#000000"
+  textMuted: "#888888"
+  border: "#CCCCCC"
+  primary: "#FF3D3D"
+  primaryHover: "#FF5555"
+  onPrimary: "#FFFFFF"
+  accent2: "#FF3D3D"
+surfaces:
+  hero_background: "#FFFFFF"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

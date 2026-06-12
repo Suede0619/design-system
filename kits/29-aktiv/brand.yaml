@@ -1,0 +1,55 @@
+# Aktiv — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "29"
+  name: "Aktiv"
+  reference_url: "https://aktiv.studio"
+  award: "CSSDA Best Agency 2024"
+  category: "Agency / Swiss Grid"
+  mode: "light"
+voice:
+  tagline: "Swiss restraint in a cream palette — Aktiv Grotesk as both brand and tool."
+  signature: "The namesake typeface is the design system — Aktiv Grotesk at every scale from 8vw hero to 11px nav labels creates a coherent voice where size and weight are the only variables. Clean without being empty, structured without being rigid, with a warm cream palette and intentional grid breaks."
+principles:
+  - "Grid as language — followed rigorously, broken intentionally"
+  - "40% of any section is intentionally empty"
+  - "Asymmetry is architectural, not accidental"
+  - "Mixed-weight headlines: thin + bold juxtaposition"
+  - "Flat color and grain texture over gradients"
+typography:
+  font_sans: "\"Aktiv Grotesk\", \"Inter\", \"Helvetica Neue\", system-ui, sans-serif"
+  font_display: "\"Aktiv Grotesk\", \"Inter\", \"Helvetica Neue\", system-ui, sans-serif"
+  font_mono: ""
+  scale:
+    display: "128px"
+    h1: "80px"
+    h2: "48px"
+    body: "15px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.01em"
+color:
+  bg: "#FAFAF8"
+  bgAlt: "#F0EFEB"
+  surface: "#EAE8E1"
+  text: "#111110"
+  textMuted: "#8C8C8A"
+  border: "#DCDCD8"
+  primary: "#111110"
+  primaryHover: "#000000"
+  onPrimary: "#FAFAF8"
+  accent2: "#C8B89A"
+surfaces:
+  hero_background: "linear-gradient(135deg, #FAFAF8 0%, #F0EFEB 100%)"
+  radius_card: "4px"
+  radius_button: "8px"
+  shadow: "0 2px 12px rgba(0, 0, 0, 0.06)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

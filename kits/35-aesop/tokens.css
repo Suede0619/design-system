@@ -1,0 +1,45 @@
+/* Aesop — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Futura PT", "Helvetica Neue", system-ui, sans-serif;
+  --ds-font-display: "Vendetta", "Canela", Georgia, "Times New Roman", serif;
+  --ds-font-mono: "Futura PT", "Helvetica Neue", system-ui, sans-serif;
+
+  /* color */
+  --ds-bg: #F4EFE6;
+  --ds-bg-alt: #EEE8DC;
+  --ds-surface: #FFFFFF;
+  --ds-text: #1A1410;
+  --ds-text-muted: #B8AD98;
+  --ds-border: #D8CEBC;
+  --ds-primary: #1A1410;
+  --ds-primary-hover: #3A2E20;
+  --ds-on-primary: #F4EFE6;
+  --ds-accent-2: #8B5E3C;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #1A1410;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #1A1410;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #1A1410;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 80px;
+  --ds-size-h1: 64px;
+  --ds-size-h2: 44px;
+  --ds-size-body: 18px;
+  --ds-weight-heading: 400;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.01em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 0px;
+  --ds-shadow: 0 4px 20px rgba(58, 46, 32, 0.08);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #F4EFE6 0%, #EEE8DC 100%);
+}

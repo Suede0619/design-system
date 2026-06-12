@@ -1,0 +1,55 @@
+# Immersive Garden — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "04"
+  name: "Immersive Garden"
+  reference_url: "https://immersive-g.com"
+  award: "Awwwards Agency of the Year 2025"
+  category: "Dark Luxury / WebGL Portfolio"
+  mode: "dark"
+voice:
+  tagline: "Dark opulence meets digital craftsmanship — cinematic WebGL scenes, refined serif type, whispered gold accents."
+  signature: "A custom gold cursor that breathes and transforms by context — shrinking over text, expanding with a 'View' label over images, a gentle gold dot over the background. Combined with WebGL shader transitions between pages, the whole experience feels like navigating a gallery rather than a website."
+principles:
+  - "Interaction as performance art"
+  - "Color is scarce — scarcity creates value"
+  - "Gold only for interactive elements and the cursor, never backgrounds"
+  - "Warm off-white text, never pure white"
+  - "WebGL depth that flat design cannot touch"
+typography:
+  font_sans: "\"Sora\", \"Helvetica Neue\", sans-serif"
+  font_display: "\"Playfair Display\", \"Georgia\", serif"
+  font_mono: ""
+  scale:
+    display: "100px"
+    h1: "88px"
+    h2: "64px"
+    body: "16px"
+  weight_heading: 400
+  weight_body: 300
+  tracking_display: "0em"
+color:
+  bg: "#080808"
+  bgAlt: "#111111"
+  surface: "#1C1C1C"
+  text: "#F2EDE8"
+  textMuted: "#8A8A8A"
+  border: "#333333"
+  primary: "#C5A55A"
+  primaryHover: "#E8D5A0"
+  onPrimary: "#080808"
+  accent2: "#A8893D"
+surfaces:
+  hero_background: "radial-gradient(ellipse at center, transparent 60%, #080808 100%)"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

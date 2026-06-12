@@ -1,0 +1,45 @@
+/* Loom — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-display: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-mono: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* color */
+  --ds-bg: #FAFAFA;
+  --ds-bg-alt: #F0EFFF;
+  --ds-surface: #FFFFFF;
+  --ds-text: #0F0F1A;
+  --ds-text-muted: #9898B0;
+  --ds-border: #E4E4F0;
+  --ds-primary: #625DF5;
+  --ds-primary-hover: #4B46D9;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #FF6B6B;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #0F0F1A;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #0F0F1A;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 72px;
+  --ds-size-h1: 56px;
+  --ds-size-h2: 40px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 16px;
+  --ds-radius-button: 8px;
+  --ds-shadow: 0 4px 16px rgba(98, 93, 245, 0.35);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #625DF5 0%, #8B87FF 100%);
+}

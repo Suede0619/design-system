@@ -1,0 +1,55 @@
+# Loom — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "36"
+  name: "Loom"
+  reference_url: "https://www.loom.com"
+  award: "Webby Winner Productivity"
+  category: "SaaS / Friendly Purple"
+  mode: "light"
+voice:
+  tagline: "Warm purple-violet product energy that says video is for everyone — bright, friendly, never cold."
+  signature: "The recording UI is always visible — a camera pip, a recording indicator, a screen capture frame, or a timeline scrubber. The product's core interaction (pressing record) is never far from view, keeping the value proposition constantly alive. You don't just read 'record a video' — you see someone already recording."
+principles:
+  - "Video is for everyone — accessible and encouraging"
+  - "Video-native — every screenshot is a recording"
+  - "Vibrant but never overwhelming"
+  - "Color journey from hero energy to clean comprehension"
+  - "Dark sections shift emotional register, not just aesthetics"
+typography:
+  font_sans: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_display: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_mono: ""
+  scale:
+    display: "72px"
+    h1: "56px"
+    h2: "40px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#FAFAFA"
+  bgAlt: "#F0EFFF"
+  surface: "#FFFFFF"
+  text: "#0F0F1A"
+  textMuted: "#9898B0"
+  border: "#E4E4F0"
+  primary: "#625DF5"
+  primaryHover: "#4B46D9"
+  onPrimary: "#FFFFFF"
+  accent2: "#FF6B6B"
+surfaces:
+  hero_background: "linear-gradient(135deg, #625DF5 0%, #8B87FF 100%)"
+  radius_card: "16px"
+  radius_button: "8px"
+  shadow: "0 4px 16px rgba(98, 93, 245, 0.35)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

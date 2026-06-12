@@ -1,0 +1,45 @@
+/* Bürocratik — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Neue Montreal", "Helvetica Neue", Arial, sans-serif;
+  --ds-font-display: "Neue Montreal", "Helvetica Neue", Arial, sans-serif;
+  --ds-font-mono: "Neue Montreal", "Helvetica Neue", Arial, sans-serif;
+
+  /* color */
+  --ds-bg: #FFFFFF;
+  --ds-bg-alt: #000000;
+  --ds-surface: #1A1A1A;
+  --ds-text: #000000;
+  --ds-text-muted: #888888;
+  --ds-border: #CCCCCC;
+  --ds-primary: #FF3D3D;
+  --ds-primary-hover: #FF5555;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #FF3D3D;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #000000;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #FFFFFF;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 200px;
+  --ds-size-h1: 160px;
+  --ds-size-h2: 96px;
+  --ds-size-body: 18px;
+  --ds-weight-heading: 900;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.04em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 0px;
+  --ds-shadow: none;
+
+  /* hero */
+  --ds-hero-bg: #FFFFFF;
+}

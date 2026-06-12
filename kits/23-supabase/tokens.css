@@ -1,0 +1,45 @@
+/* Supabase — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-display: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-mono: "JetBrains Mono", "Fira Code", Menlo, monospace;
+
+  /* color */
+  --ds-bg: #1C1C1C;
+  --ds-bg-alt: #161616;
+  --ds-surface: #262626;
+  --ds-text: #EEEEEE;
+  --ds-text-muted: #AAAAAA;
+  --ds-border: #3E3E3E;
+  --ds-primary: #3ECF8E;
+  --ds-primary-hover: #47DBA0;
+  --ds-on-primary: #1C1C1C;
+  --ds-accent-2: #22C55E;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #EEEEEE;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 80px;
+  --ds-size-h1: 64px;
+  --ds-size-h2: 48px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 8px;
+  --ds-radius-button: 6px;
+  --ds-shadow: 0 8px 32px rgba(0,0,0,0.6);
+
+  /* hero */
+  --ds-hero-bg: radial-gradient(ellipse at 50% -20%, rgba(62,207,142,0.12) 0%, transparent 60%);
+}

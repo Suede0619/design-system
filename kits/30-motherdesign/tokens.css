@@ -1,0 +1,45 @@
+/* Mother Design — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Akkurat", "Neue Haas Grotesk", "Helvetica Neue", system-ui, sans-serif;
+  --ds-font-display: "Canela", Georgia, "Times New Roman", serif;
+  --ds-font-mono: "Akkurat", "Neue Haas Grotesk", "Helvetica Neue", system-ui, sans-serif;
+
+  /* color */
+  --ds-bg: #F9F7F4;
+  --ds-bg-alt: #F2EFE9;
+  --ds-surface: #E5DFD6;
+  --ds-text: #2A2520;
+  --ds-text-muted: #6B6358;
+  --ds-border: #D9D3CB;
+  --ds-primary: #2A2520;
+  --ds-primary-hover: #161412;
+  --ds-on-primary: #F9F7F4;
+  --ds-accent-2: #C4704A;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #2A2520;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #2A2520;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 120px;
+  --ds-size-h1: 88px;
+  --ds-size-h2: 56px;
+  --ds-size-body: 17px;
+  --ds-weight-heading: 400;
+  --ds-weight-body: 300;
+  --ds-tracking-display: -0.01em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 100px;
+  --ds-shadow: 0 24px 64px rgba(0, 0, 0, 0.08);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(180deg, transparent 50%, rgba(22,20,18,0.7) 100%);
+}

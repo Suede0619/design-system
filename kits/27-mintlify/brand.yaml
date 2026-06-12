@@ -1,0 +1,55 @@
+# Mintlify — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "27"
+  name: "Mintlify"
+  reference_url: "https://mintlify.com"
+  award: "Dev community standard"
+  category: "Documentation / Fresh Green"
+  mode: "dark"
+voice:
+  tagline: "Premium dark with mint-green intelligence — documentation made aspirational."
+  signature: "Mintlify makes documentation look aspirational — a premium dark aesthetic that says this isn't your enterprise docs tool, while mint green communicates freshness and intelligence. Bento feature cards glow mint on hover, and the hero shows real customer docs rendered in the platform."
+principles:
+  - "Docs-native, hierarchical, scannable structure"
+  - "Bento grid for diverse feature callouts"
+  - "Hero always shows the real product in use"
+  - "Mint green as a focused signal"
+  - "Typography-first with excellent hierarchy"
+typography:
+  font_sans: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_display: "\"Plus Jakarta Sans\", \"Inter\", system-ui, sans-serif"
+  font_mono: "\"Geist Mono\", \"JetBrains Mono\", monospace"
+  scale:
+    display: "72px"
+    h1: "48px"
+    h2: "40px"
+    body: "17px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.03em"
+color:
+  bg: "#0D0D0D"
+  bgAlt: "#111111"
+  surface: "#111111"
+  text: "#FFFFFF"
+  textMuted: "rgba(255,255,255,0.45)"
+  border: "#1F1F1F"
+  primary: "#00C4A0"
+  primaryHover: "#00E5B8"
+  onPrimary: "#0D0D0D"
+  accent2: "#009E80"
+surfaces:
+  hero_background: "radial-gradient(ellipse at 60% -10%, rgba(0, 196, 160, 0.18) 0%, transparent 55%)"
+  radius_card: "16px"
+  radius_button: "8px"
+  shadow: "0 0 24px rgba(0, 196, 160, 0.4)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

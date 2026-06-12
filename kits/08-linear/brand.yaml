@@ -1,0 +1,55 @@
+# Linear — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "08"
+  name: "Linear"
+  reference_url: "https://linear.app"
+  award: "Awwwards Honoree"
+  category: "Ultra-Refined Dark SaaS"
+  mode: "dark"
+voice:
+  tagline: "The gold standard for dark SaaS — near-black surfaces, gossamer glass cards, gradient-text accents, keyboard-native."
+  signature: "Gradient-filled headlines paired with pervasive keyboard-shortcut visual language. The purple-to-blue gradient applied to background-clip:text on large headings is instantly recognizable, while scattered kbd chips declare a keyboard-first philosophy. Linear was engineered for people who optimize everything."
+principles:
+  - "Maximum signal, minimum noise"
+  - "Dark-first: light mode is an afterthought"
+  - "Typography as primary visual element"
+  - "Glass morphism done with discipline, not excess"
+  - "Keyboard-native interaction patterns made visible"
+typography:
+  font_sans: "Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif"
+  font_display: "Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif"
+  font_mono: "\"Berkeley Mono\", \"JetBrains Mono\", \"SF Mono\", monospace"
+  scale:
+    display: "64px"
+    h1: "48px"
+    h2: "36px"
+    body: "15px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.04em"
+color:
+  bg: "#0A0A0A"
+  bgAlt: "#111111"
+  surface: "#161616"
+  text: "#F5F5F5"
+  textMuted: "rgba(245,245,245,0.65)"
+  border: "rgba(255,255,255,0.08)"
+  primary: "#7C5CFC"
+  primaryHover: "#5E85FA"
+  onPrimary: "#FFFFFF"
+  accent2: "#4EA8DE"
+surfaces:
+  hero_background: "linear-gradient(135deg, #7C5CFC 0%, #5E85FA 50%, #4EA8DE 100%)"
+  radius_card: "12px"
+  radius_button: "6px"
+  shadow: "0 0 20px rgba(124,92,252,0.3)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

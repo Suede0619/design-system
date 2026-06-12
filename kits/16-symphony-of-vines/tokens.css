@@ -1,0 +1,45 @@
+/* Symphony of Vines — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Libre Baskerville", Georgia, "Times New Roman", serif;
+  --ds-font-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --ds-font-mono: "Libre Baskerville", Georgia, "Times New Roman", serif;
+
+  /* color */
+  --ds-bg: #1A1006;
+  --ds-bg-alt: #F5F0E8;
+  --ds-surface: #2B2B2B;
+  --ds-text: #F5F0E8;
+  --ds-text-muted: rgba(245, 240, 232, 0.6);
+  --ds-border: rgba(197, 165, 90, 0.3);
+  --ds-primary: #722F37;
+  --ds-primary-hover: #4A1B22;
+  --ds-on-primary: #F5F0E8;
+  --ds-accent-2: #C5A55A;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #F5F0E8;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #141414;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 112px;
+  --ds-size-h1: 40px;
+  --ds-size-h2: 32px;
+  --ds-size-body: 17px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 0px;
+  --ds-shadow: none;
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(to bottom, rgba(26, 16, 6, 0) 0%, rgba(26, 16, 6, 0.7) 60%, rgba(26, 16, 6, 0.95) 100%);
+}

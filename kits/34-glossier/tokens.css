@@ -1,0 +1,45 @@
+/* Glossier — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Graphik", "Helvetica Neue", system-ui, sans-serif;
+  --ds-font-display: "Graphik", "Helvetica Neue", system-ui, sans-serif;
+  --ds-font-mono: "Graphik", "Helvetica Neue", system-ui, sans-serif;
+
+  /* color */
+  --ds-bg: #FDF8F6;
+  --ds-bg-alt: #FAF0EC;
+  --ds-surface: #FFFFFF;
+  --ds-text: #4A3830;
+  --ds-text-muted: #C4A89E;
+  --ds-border: #F0C4BA;
+  --ds-primary: #1A1414;
+  --ds-primary-hover: #4A3830;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #F5DAD2;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #4A3830;
+  --ds-hero-muted: rgba(20,18,15,0.66);
+  --ds-surface-text: #4A3830;
+  --ds-surface-muted: rgba(20,18,15,0.62);
+  --ds-alt-text: #4A3830;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 64px;
+  --ds-size-h1: 48px;
+  --ds-size-h2: 32px;
+  --ds-size-body: 15px;
+  --ds-weight-heading: 400;
+  --ds-weight-body: 300;
+  --ds-tracking-display: 0;
+
+  /* shape + depth */
+  --ds-radius-card: 8px;
+  --ds-radius-button: 4px;
+  --ds-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+
+  /* hero */
+  --ds-hero-bg: radial-gradient(ellipse at 60% 0%, #F5DAD2 0%, #FDF8F6 60%);
+}

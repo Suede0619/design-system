@@ -1,0 +1,55 @@
+# Railway — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "24"
+  name: "Railway"
+  reference_url: "https://railway.com"
+  award: "Awwwards Honoree"
+  category: "Developer Platform / Purple Neon"
+  mode: "dark"
+voice:
+  tagline: "Mission control with a boutique makeover — deep near-black, glowing infra graphs, magenta-violet canvas."
+  signature: "The visual canvas — a live, interactive node graph showing your entire stack — is embedded right into the marketing page, turning infrastructure into art. Service nodes pulse and dashed connectors animate data flow, while deployment pipelines progress from violet to terminal green."
+principles:
+  - "Theatrical dark tech with deep near-black backgrounds"
+  - "Infrastructure as art — the visual canvas is the hero"
+  - "Glowing service graphs reframe deployment complexity"
+  - "Live counters and animated pipelines signal real-time"
+  - "Service-color coding as a visual language"
+typography:
+  font_sans: "\"Geist\", \"Inter\", system-ui, sans-serif"
+  font_display: "\"Geist\", \"Inter\", system-ui, sans-serif"
+  font_mono: "\"Geist Mono\", \"JetBrains Mono\", monospace"
+  scale:
+    display: "80px"
+    h1: "64px"
+    h2: "44px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#0B0D0F"
+  bgAlt: "#0D1117"
+  surface: "#161B22"
+  text: "#E6EDF3"
+  textMuted: "#7D8590"
+  border: "#30363D"
+  primary: "#7C3AED"
+  primaryHover: "#6D28D9"
+  onPrimary: "#FFFFFF"
+  accent2: "#C026D3"
+surfaces:
+  hero_background: "radial-gradient(ellipse at 40% -10%, rgba(124,58,237,0.2) 0%, rgba(192,38,211,0.1) 30%, transparent 60%)"
+  radius_card: "12px"
+  radius_button: "6px"
+  shadow: "0 8px 24px rgba(0,0,0,0.6)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

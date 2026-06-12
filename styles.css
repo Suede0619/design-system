@@ -385,6 +385,41 @@ kbd {
 .principles li::before { content: counter(p,decimal-leading-zero); counter-increment: p; position: absolute; left: 0; top: 8px; font-size: 11px; color: var(--ui-accent); font-weight: 700; font-variant-numeric: tabular-nums; }
 .principles { counter-reset: p; }
 
+/* ---- atomic kit card ---- */
+.kit-card {
+  display: flex; gap: 28px; align-items: center; justify-content: space-between;
+  background: linear-gradient(135deg, rgba(124,124,255,.10), rgba(124,124,255,.02) 55%), var(--ui-panel);
+  border-color: rgba(124,124,255,.35);
+}
+.kit-copy { min-width: 0; }
+.kit-card h3 { color: var(--ui-accent); }
+.kit-lead { font-size: 16px; font-weight: 600; margin: 0 0 8px; letter-spacing: -.01em; }
+.kit-sub { font-size: 13.5px; color: var(--ui-muted); line-height: 1.6; margin: 0 0 14px; max-width: 64ch; }
+.kit-sub code { font-size: 12px; background: var(--ui-panel-2); border: 1px solid var(--ui-line); border-radius: 5px; padding: 1px 5px; color: var(--ui-text); }
+.kit-files { display: flex; flex-wrap: wrap; gap: 6px; }
+.kit-files span {
+  font-size: 11px; color: var(--ui-muted); background: var(--ui-panel-2);
+  border: 1px solid var(--ui-line); border-radius: 6px; padding: 3px 8px;
+  font-variant-numeric: tabular-nums;
+}
+.kit-action { flex: none; display: flex; flex-direction: column; align-items: center; gap: 9px; }
+.kit-btn {
+  display: inline-flex; align-items: center; gap: 9px;
+  background: var(--ui-accent); color: #fff; text-decoration: none;
+  font-size: 14px; font-weight: 600; padding: 13px 22px; border-radius: 11px;
+  box-shadow: 0 6px 24px rgba(124,124,255,.35);
+  transition: transform .12s, box-shadow .15s, background .15s;
+  white-space: nowrap;
+}
+.kit-btn:hover { transform: translateY(-1px); background: #8d8dff; box-shadow: 0 8px 30px rgba(124,124,255,.45); }
+.kit-note { font-size: 11px; color: var(--ui-faint); }
+.kit-link { border-color: rgba(124,124,255,.4); color: #b9b9ff; }
+.kit-link:hover { background: rgba(124,124,255,.12); }
+@media (max-width: 720px) {
+  .kit-card { flex-direction: column; align-items: flex-start; }
+  .kit-action { align-items: flex-start; }
+}
+
 .page-foot { max-width: 1180px; margin: 30px auto 10px; text-align: center; font-size: 12.5px; color: var(--ui-faint); line-height: 1.6; }
 
 /* =================== COMMAND PALETTE =================== */

@@ -1,0 +1,45 @@
+/* Resend — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-display: "Inter", system-ui, -apple-system, sans-serif;
+  --ds-font-mono: "Geist Mono", "JetBrains Mono", "Fira Code", monospace;
+
+  /* color */
+  --ds-bg: #000000;
+  --ds-bg-alt: #0A0A0A;
+  --ds-surface: #0A0A0A;
+  --ds-text: #FFFFFF;
+  --ds-text-muted: rgba(255,255,255,0.6);
+  --ds-border: #1A1A1A;
+  --ds-primary: #FF4D00;
+  --ds-primary-hover: #FF6A2A;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #FF8C42;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #FFFFFF;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 64px;
+  --ds-size-h1: 64px;
+  --ds-size-h2: 36px;
+  --ds-size-body: 16px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.02em;
+
+  /* shape + depth */
+  --ds-radius-card: 10px;
+  --ds-radius-button: 6px;
+  --ds-shadow: 0 0 20px rgba(255, 77, 0, 0.35);
+
+  /* hero */
+  --ds-hero-bg: radial-gradient(ellipse at 50% -20%, rgba(255, 77, 0, 0.15) 0%, transparent 60%);
+}

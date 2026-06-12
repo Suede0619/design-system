@@ -1,0 +1,55 @@
+# Stripe — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "07"
+  name: "Stripe"
+  reference_url: "https://stripe.com"
+  award: "Multiple Webby Awards"
+  category: "Developer Fintech / Gradient Dark"
+  mode: "dark"
+voice:
+  tagline: "Premium fintech built for developer trust — deep navy depth punctuated by living, breathing gradient purples."
+  signature: "The animated mesh gradient hero — a dark navy canvas layered with multiple animated radial gradients in purple and cyan that shift on a slow 12s cycle, creating an organic sense of depth. Glass-effect cards float above it alongside pixel-perfect code blocks: this is what premium developer infrastructure looks like."
+principles:
+  - "Precision over decoration"
+  - "Developer-first clarity"
+  - "Gradient depth, not flat color"
+  - "Generous spacing with tight typographic control"
+  - "Code is first-class content"
+typography:
+  font_sans: "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+  font_display: "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+  font_mono: "\"JetBrains Mono\", \"Fira Code\", \"Courier New\", monospace"
+  scale:
+    display: "72px"
+    h1: "56px"
+    h2: "40px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.03em"
+color:
+  bg: "#0A2540"
+  bgAlt: "#060F1E"
+  surface: "#0D3151"
+  text: "#FFFFFF"
+  textMuted: "rgba(255,255,255,0.75)"
+  border: "rgba(255,255,255,0.12)"
+  primary: "#635BFF"
+  primaryHover: "#4B45CC"
+  onPrimary: "#FFFFFF"
+  accent2: "#00A3FF"
+surfaces:
+  hero_background: "radial-gradient(ellipse at 20% 50%, #635BFF33 0%, transparent 60%), radial-gradient(ellipse at 80% 20%, #00A3FF22 0%, transparent 60%), radial-gradient(ellipse at 50% 80%, #8B45FF22 0%, transparent 60%), #0A2540"
+  radius_card: "12px"
+  radius_button: "8px"
+  shadow: "0 4px 12px rgba(99,91,255,0.35)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

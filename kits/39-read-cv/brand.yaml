@@ -1,0 +1,55 @@
+# Read.cv — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "39"
+  name: "Read.cv"
+  reference_url: "https://read.cv"
+  award: "Awwwards SOTD, FWA"
+  category: "Portfolio / Typographic Restraint"
+  mode: "light"
+voice:
+  tagline: "The anti-LinkedIn — the typographic equivalent of a well-tailored suit, no embellishment."
+  signature: "Black and white do 95% of the work — an 11-step grayscale is the palette, with blue reserved exclusively for links. No gradients, no scroll animations, no parallax; the absence of animation IS the design statement. Everything centers on a 640px reading column that makes each element feel considered."
+principles:
+  - "Restraint is the brand — doing less communicates taste"
+  - "640px is the magic number for an optimal reading measure"
+  - "Grayscale as palette — carefully chosen grays need no color"
+  - "No animation as a deliberate choice"
+  - "Typography carries everything when there's no decoration"
+typography:
+  font_sans: "\"Inter\", -apple-system, BlinkMacSystemFont, system-ui, sans-serif"
+  font_display: "\"Inter\", -apple-system, BlinkMacSystemFont, system-ui, sans-serif"
+  font_mono: "\"JetBrains Mono\", \"SF Mono\", Menlo, monospace"
+  scale:
+    display: "36px"
+    h1: "28px"
+    h2: "20px"
+    body: "15px"
+  weight_heading: 600
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#FFFFFF"
+  bgAlt: "#FAFAFA"
+  surface: "#FFFFFF"
+  text: "#171717"
+  textMuted: "#737373"
+  border: "#E5E5E5"
+  primary: "#0066FF"
+  primaryHover: "#0052CC"
+  onPrimary: "#FFFFFF"
+  accent2: "#00A870"
+surfaces:
+  hero_background: "linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%)"
+  radius_card: "8px"
+  radius_button: "8px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

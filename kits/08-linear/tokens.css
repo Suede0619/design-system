@@ -1,0 +1,45 @@
+/* Linear — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --ds-font-display: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --ds-font-mono: "Berkeley Mono", "JetBrains Mono", "SF Mono", monospace;
+
+  /* color */
+  --ds-bg: #0A0A0A;
+  --ds-bg-alt: #111111;
+  --ds-surface: #161616;
+  --ds-text: #F5F5F5;
+  --ds-text-muted: rgba(245,245,245,0.65);
+  --ds-border: rgba(255,255,255,0.08);
+  --ds-primary: #7C5CFC;
+  --ds-primary-hover: #5E85FA;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #4EA8DE;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #F5F5F5;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #FFFFFF;
+  --ds-alt-muted: rgba(255,255,255,0.66);
+
+  /* type scale */
+  --ds-size-display: 64px;
+  --ds-size-h1: 48px;
+  --ds-size-h2: 36px;
+  --ds-size-body: 15px;
+  --ds-weight-heading: 700;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.04em;
+
+  /* shape + depth */
+  --ds-radius-card: 12px;
+  --ds-radius-button: 6px;
+  --ds-shadow: 0 0 20px rgba(124,92,252,0.3);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(135deg, #7C5CFC 0%, #5E85FA 50%, #4EA8DE 100%);
+}

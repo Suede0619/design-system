@@ -1,0 +1,55 @@
+# Aesop — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "35"
+  name: "Aesop"
+  reference_url: "https://www.aesop.com"
+  award: "Multiple design awards"
+  category: "Luxury / Typographic Restraint"
+  mode: "light"
+voice:
+  tagline: "Literary luxury — libraries, apothecaries and rare bookshops rendered as a website."
+  signature: "Aesop is one of the only luxury brands whose website design assumes the visitor can and wants to read. Body text is 18px at 1.8 line-height in a serif designed for book setting, with navigation, layout, and whitespace all arranged in service of words. A radically differentiated literary design ethic."
+principles:
+  - "Copy at the center — design assumes you want to read"
+  - "The page as page — book-like margins and rhythm"
+  - "Generous whitespace, narrow type columns"
+  - "Product within a world of literature and philosophy"
+  - "Restraint and pigment-like, natural transitions"
+typography:
+  font_sans: "\"Futura PT\", \"Helvetica Neue\", system-ui, sans-serif"
+  font_display: "\"Vendetta\", \"Canela\", Georgia, \"Times New Roman\", serif"
+  font_mono: ""
+  scale:
+    display: "80px"
+    h1: "64px"
+    h2: "44px"
+    body: "18px"
+  weight_heading: 400
+  weight_body: 400
+  tracking_display: "-0.01em"
+color:
+  bg: "#F4EFE6"
+  bgAlt: "#EEE8DC"
+  surface: "#FFFFFF"
+  text: "#1A1410"
+  textMuted: "#B8AD98"
+  border: "#D8CEBC"
+  primary: "#1A1410"
+  primaryHover: "#3A2E20"
+  onPrimary: "#F4EFE6"
+  accent2: "#8B5E3C"
+surfaces:
+  hero_background: "linear-gradient(135deg, #F4EFE6 0%, #EEE8DC 100%)"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "0 4px 20px rgba(58, 46, 32, 0.08)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

@@ -1,0 +1,55 @@
+# Allbirds — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "33"
+  name: "Allbirds"
+  reference_url: "https://www.allbirds.com"
+  award: "Webby Winner Commerce"
+  category: "E-commerce / Sustainable Warm"
+  mode: "light"
+voice:
+  tagline: "Earthy, honest commerce without pressure — a palette made of the materials themselves."
+  signature: "Every shade in the system — oat, bark, clay, wool gray — is a direct reference to the natural materials Allbirds uses. The design makes the color palette feel ideologically consistent with the sustainability mission, not just decoratively matching. You feel the ethics in the UX."
+principles:
+  - "Comfortable, sustainable, honest"
+  - "Anti-corporate, approachable typography"
+  - "Calm browsing over urgency tactics"
+  - "Color palette ideologically consistent with the brand mission"
+  - "Clean product photography in natural settings"
+typography:
+  font_sans: "\"Allbirds Sans\", \"Helvetica Neue\", system-ui, sans-serif"
+  font_display: "\"Tiempos Headline\", Georgia, serif"
+  font_mono: ""
+  scale:
+    display: "72px"
+    h1: "56px"
+    h2: "40px"
+    body: "15px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "0"
+color:
+  bg: "#F5F0E8"
+  bgAlt: "#EDE7D9"
+  surface: "#FFFFFF"
+  text: "#3A2820"
+  textMuted: "#B59A80"
+  border: "#D9CEBC"
+  primary: "#3A2820"
+  primaryHover: "#282018"
+  onPrimary: "#FFFFFF"
+  accent2: "#2D4030"
+surfaces:
+  hero_background: "linear-gradient(135deg, #F5F0E8 0%, #EDE7D9 100%)"
+  radius_card: "4px"
+  radius_button: "4px"
+  shadow: "0 4px 16px rgba(0, 0, 0, 0.06)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

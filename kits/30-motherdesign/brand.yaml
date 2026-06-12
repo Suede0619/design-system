@@ -1,0 +1,55 @@
+# Mother Design — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "30"
+  name: "Mother Design"
+  reference_url: "https://motherdesign.com"
+  award: "D&AD Pencil, Awwwards SOTD"
+  category: "Studio / Confident Minimal"
+  mode: "light"
+voice:
+  tagline: "Light Canela serif on warm cream — an art book that happens to be a website."
+  signature: "A masterclass in typographic restraint — Canela serif at light weight creates luxury without ostentation, using thin serifs and silence to communicate taste where others use bold. Warm cream backgrounds and barely-there hierarchy make the site feel like an art book."
+principles:
+  - "Image-forward — the work is the hero, text frames it"
+  - "Editorial restraint: thin serifs and silence over bold"
+  - "Minimal color, maximum presence"
+  - "Asymmetric grid serves the imagery"
+  - "Color delivered through photography, not gradient fills"
+typography:
+  font_sans: "\"Akkurat\", \"Neue Haas Grotesk\", \"Helvetica Neue\", system-ui, sans-serif"
+  font_display: "\"Canela\", Georgia, \"Times New Roman\", serif"
+  font_mono: ""
+  scale:
+    display: "120px"
+    h1: "88px"
+    h2: "56px"
+    body: "17px"
+  weight_heading: 400
+  weight_body: 300
+  tracking_display: "-0.01em"
+color:
+  bg: "#F9F7F4"
+  bgAlt: "#F2EFE9"
+  surface: "#E5DFD6"
+  text: "#2A2520"
+  textMuted: "#6B6358"
+  border: "#D9D3CB"
+  primary: "#2A2520"
+  primaryHover: "#161412"
+  onPrimary: "#F9F7F4"
+  accent2: "#C4704A"
+surfaces:
+  hero_background: "linear-gradient(180deg, transparent 50%, rgba(22,20,18,0.7) 100%)"
+  radius_card: "0px"
+  radius_button: "100px"
+  shadow: "0 24px 64px rgba(0, 0, 0, 0.08)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

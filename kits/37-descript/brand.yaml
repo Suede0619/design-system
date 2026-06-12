@@ -1,0 +1,55 @@
+# Descript — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "37"
+  name: "Descript"
+  reference_url: "https://www.descript.com"
+  award: "Multiple Webby Awards"
+  category: "Creative Tool / Playful"
+  mode: "light"
+voice:
+  tagline: "Creative energy with professional grounding — powerful tools made friendly in warm coral."
+  signature: "The product interface is the hero. Rather than static screenshots, Descript shows the editing happening — words getting struck through, audio waveforms shifting, video frames updating in sync with text changes. The coral accent is warm enough to feel creative, structured enough to feel professional."
+principles:
+  - "Powerful tools made friendly"
+  - "Show the work — demonstrate, don't describe"
+  - "Playful but never childish"
+  - "Coral accent only on things that matter: CTAs and feature highlights"
+  - "Vibrant for creators, structured for teams"
+typography:
+  font_sans: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_display: "\"Inter\", system-ui, -apple-system, sans-serif"
+  font_mono: ""
+  scale:
+    display: "72px"
+    h1: "56px"
+    h2: "40px"
+    body: "16px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#FAFAF8"
+  bgAlt: "#F5F4F0"
+  surface: "#FFFFFF"
+  text: "#1A1A14"
+  textMuted: "#8A8880"
+  border: "#E0DDD6"
+  primary: "#FF5B35"
+  primaryHover: "#E84E2A"
+  onPrimary: "#FFFFFF"
+  accent2: "#FF8060"
+surfaces:
+  hero_background: "linear-gradient(135deg, #FAFAF8 0%, #F5F4F0 100%)"
+  radius_card: "16px"
+  radius_button: "8px"
+  shadow: "0 4px 16px rgba(255, 91, 53, 0.3)"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

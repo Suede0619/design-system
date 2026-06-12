@@ -1,0 +1,45 @@
+/* Charles Leclerc — design tokens as CSS custom properties.
+   Import this first, then components.css (or use the vars directly). */
+:root {
+  /* fonts */
+  --ds-font-sans: "Neue Haas Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --ds-font-display: "EB Garamond", "Georgia", "Times New Roman", serif;
+  --ds-font-mono: "Neue Haas Grotesk", "Helvetica Neue", Arial, sans-serif;
+
+  /* color */
+  --ds-bg: #0D0D0D;
+  --ds-bg-alt: #F5F0EB;
+  --ds-surface: #1A1A1A;
+  --ds-text: #F5F0EB;
+  --ds-text-muted: #888888;
+  --ds-border: #333333;
+  --ds-primary: #C12C2C;
+  --ds-primary-hover: #E03333;
+  --ds-on-primary: #FFFFFF;
+  --ds-accent-2: #C5A55A;
+
+  /* derived (contrast-safe) */
+  --ds-hero-text: #FFFFFF;
+  --ds-hero-muted: rgba(255,255,255,0.74);
+  --ds-surface-text: #F5F0EB;
+  --ds-surface-muted: rgba(255,255,255,0.62);
+  --ds-alt-text: #141414;
+  --ds-alt-muted: rgba(20,18,15,0.6);
+
+  /* type scale */
+  --ds-size-display: 120px;
+  --ds-size-h1: 96px;
+  --ds-size-h2: 64px;
+  --ds-size-body: 17px;
+  --ds-weight-heading: 400;
+  --ds-weight-body: 400;
+  --ds-tracking-display: -0.01em;
+
+  /* shape + depth */
+  --ds-radius-card: 0px;
+  --ds-radius-button: 0px;
+  --ds-shadow: 0 4px 20px rgba(0,0,0,0.06);
+
+  /* hero */
+  --ds-hero-bg: linear-gradient(180deg, transparent 30%, rgba(13,13,13,0.95) 100%);
+}

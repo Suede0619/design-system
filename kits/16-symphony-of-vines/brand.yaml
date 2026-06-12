@@ -1,0 +1,55 @@
+# Symphony of Vines — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "16"
+  name: "Symphony of Vines"
+  reference_url: "https://thesymphonyofvines.com"
+  award: "CSSDA #2 of 2025 (8.88)"
+  category: "Wine / Cinematic Scroll"
+  mode: "dark"
+voice:
+  tagline: "Cinematic wine storytelling — a slowly-unfolding film of burgundy, gold, and full-bleed vineyard photography."
+  signature: "A horizontal scroll narrative where each panel is a vintage year with the year floating in large translucent numerals behind the content, advancing like a film reel. A three-layer parallax stack builds genuine 3D depth, threaded by a full-width gold timeline — making time a physical journey rather than a document."
+principles:
+  - "Cinematic first — feels like a slowly-unfolding film"
+  - "Photography is the hero — full-bleed vineyard images carry emotion"
+  - "Typography does the talking — display serifs for all headings"
+  - "Time is architecture — the year timeline is the narrative backbone"
+  - "Motion is ambient — everything eases at 1.5 seconds minimum"
+typography:
+  font_sans: "\"Libre Baskerville\", Georgia, \"Times New Roman\", serif"
+  font_display: "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif"
+  font_mono: ""
+  scale:
+    display: "112px"
+    h1: "40px"
+    h2: "32px"
+    body: "17px"
+  weight_heading: 700
+  weight_body: 400
+  tracking_display: "-0.02em"
+color:
+  bg: "#1A1006"
+  bgAlt: "#F5F0E8"
+  surface: "#2B2B2B"
+  text: "#F5F0E8"
+  textMuted: "rgba(245, 240, 232, 0.6)"
+  border: "rgba(197, 165, 90, 0.3)"
+  primary: "#722F37"
+  primaryHover: "#4A1B22"
+  onPrimary: "#F5F0E8"
+  accent2: "#C5A55A"
+surfaces:
+  hero_background: "linear-gradient(to bottom, rgba(26, 16, 6, 0) 0%, rgba(26, 16, 6, 0.7) 60%, rgba(26, 16, 6, 0.95) 100%)"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html

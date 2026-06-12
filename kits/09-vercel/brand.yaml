@@ -1,0 +1,55 @@
+# Vercel — atomic brand kit (machine-readable)
+# Generated from the Design System Atlas. Hand this folder to a human or an agent.
+kit_version: "1.0"
+system:
+  id: "09"
+  name: "Vercel"
+  reference_url: "https://vercel.com"
+  award: "Webby Nominee"
+  category: "Stark Monochrome"
+  mode: "dark"
+voice:
+  tagline: "Absolute monochrome where raw performance numbers in giant Geist type are the only decoration."
+  signature: "Vercel's fingerprint is using raw performance data as the primary visual element — '0.7s' in 72px Geist Black, white on black, is the hero where others use imagery. The zero-color constraint is so absolute it becomes a brand statement, and the triangle (▲) is the only shape. Performance is the aesthetic."
+principles:
+  - "Zero color — contrast is the only accent"
+  - "Typography as architecture"
+  - "Terminal/code aesthetics elevated to marketing"
+  - "Performance numbers as decorative elements"
+  - "Geometry (triangle) as recurring motif"
+typography:
+  font_sans: "\"Geist Sans\", \"Geist\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+  font_display: "\"Geist Sans\", \"Geist\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+  font_mono: "\"Geist Mono\", \"SF Mono\", \"Fira Code\", monospace"
+  scale:
+    display: "72px"
+    h1: "64px"
+    h2: "48px"
+    body: "14px"
+  weight_heading: 900
+  weight_body: 400
+  tracking_display: "-0.04em"
+color:
+  bg: "#000000"
+  bgAlt: "#0A0A0A"
+  surface: "#111111"
+  text: "#FFFFFF"
+  textMuted: "#888888"
+  border: "#333333"
+  primary: "#FFFFFF"
+  primaryHover: "#CCCCCC"
+  onPrimary: "#000000"
+  accent2: "#0070F3"
+surfaces:
+  hero_background: "#000000"
+  radius_card: "0px"
+  radius_button: "0px"
+  shadow: "none"
+files:
+  tokens_json: tokens.json
+  tokens_css: tokens.css
+  tailwind: tailwind.config.js
+  atoms_css: components.css
+  agent_instructions: AGENTS.md
+  full_spec: SPEC.md
+  preview: preview.html
